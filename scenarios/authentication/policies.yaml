@@ -1,0 +1,50 @@
+# Governance policies for the REST authentication scenario.
+#
+# Policies live here and not in Python (Raw_planning §6) so that the governance
+# mechanism is configurable, auditable, testable and reproducible, and so that
+# the policy set can be swapped between arms without touching a line of code.
+#
+# A policy is a *hard admissibility constraint*: it says which actions are
+# permitted in which states. It never scores anything. Scoring lives in
+# `governance/scoring.py` and never sees a rejected candidate — that ordering is
+# the filter-then-rank invariant (V3 §1) and is asserted by a unit test.
+
+version: "1.0.0"
+
+policies:
+  - id: SECURITY_DEPLOYMENT_BLOCK
+    description: >
+      An artefact whose security suite is red must not be released, regardless
+      of how attractive releasing it looks. This is the constraint whose hard
+      form the governed arm has and the ungoverned arm does not.
+    when:
+      security_failure: true
+    prohibit:
+      - ACCEPT
+
+  - id: FUNCTIONAL_DEPLOYMENT_BLOCK
+    description: >
+      An artefact failing its functional contract must not be released either.
+    when:
+      functional_failure: true
+    prohibit:
+      - ACCEPT
+
+  - id: NO_BLIND_ACCEPT
+    description: >
+      Nothing may be released before it has been verified at least once. Without
+      this, an arm could accept an untested artefact and score a spurious win.
+    when:
+      tested_at_least_once: false
+    prohibit:
+      - ACCEPT
+
+  - id: NO_TERMINATION_WHILE_RECOVERABLE
+    description: >
+      Do not abandon the task while an admissible repair path still exists.
+      Escalate-never-relax: this narrows the option set rather than widening it.
+    when:
+      confidence_below: 0.999
+      security_agent_active: false
+    prohibit:
+      - TERMINATE

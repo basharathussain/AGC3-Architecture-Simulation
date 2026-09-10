@@ -1,0 +1,115 @@
+{
+  "scoring_hash": "b8429178ecad43d5",
+  "scoring": {
+    "lambda_cost": 0.15,
+    "lambda_risk": 0.5,
+    "risk_accept_security_red": 1.0,
+    "risk_accept_functional_red": 0.6,
+    "risk_terminate": 0.3
+  },
+  "world_params": {
+    "p_defect_functional": 0.4,
+    "p_defect_security": 0.75,
+    "p_fix_functional_coder": 0.85,
+    "p_fix_security_coder": 0.15,
+    "p_fix_security_specialist": 0.9,
+    "p_fix_functional_specialist": 0.0,
+    "p_planner_omits_endpoint": 0.1
+  },
+  "n_per_arm_per_env": 30,
+  "seeds": [
+    1,
+    30
+  ],
+  "arms": [
+    "B1",
+    "B2",
+    "B3",
+    "A1",
+    "A2",
+    "ABL2",
+    "ABL4"
+  ],
+  "environments": [
+    "nominal",
+    "perturbed"
+  ],
+  "step_budget": 24,
+  "supervisor_escalate_after": 2,
+  "agent_backend": "sim",
+  "suite_version": "1.0.0",
+  "confidence_mode": "derived (Mode B)",
+  "python": "3.14.5",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "wall_clock_s": 0.915,
+  "lambda_sweep": [
+    {
+      "lambda_risk": 0.0,
+      "A1_success": 0.36666666666666664,
+      "A1_violations": 19,
+      "A2_success": 0.9333333333333333,
+      "A2_violations": 0
+    },
+    {
+      "lambda_risk": 0.1,
+      "A1_success": 0.8666666666666667,
+      "A1_violations": 4,
+      "A2_success": 0.9333333333333333,
+      "A2_violations": 0
+    },
+    {
+      "lambda_risk": 0.2,
+      "A1_success": 0.9333333333333333,
+      "A1_violations": 1,
+      "A2_success": 0.9333333333333333,
+      "A2_violations": 0
+    },
+    {
+      "lambda_risk": 0.3,
+      "A1_success": 0.9333333333333333,
+      "A1_violations": 0,
+      "A2_success": 0.9333333333333333,
+      "A2_violations": 0
+    },
+    {
+      "lambda_risk": 0.4,
+      "A1_success": 0.9333333333333333,
+      "A1_violations": 0,
+      "A2_success": 0.9333333333333333,
+      "A2_violations": 0
+    },
+    {
+      "lambda_risk": 0.5,
+      "A1_success": 0.9333333333333333,
+      "A1_violations": 0,
+      "A2_success": 0.9333333333333333,
+      "A2_violations": 0
+    }
+  ],
+  "competence_sweep": [
+    {
+      "p_fix_security_coder": 0.05,
+      "p_fix_security_specialist": 0.95,
+      "B2_success": 0.43333333333333335,
+      "A2_success": 0.9666666666666667
+    },
+    {
+      "p_fix_security_coder": 0.15,
+      "p_fix_security_specialist": 0.9,
+      "B2_success": 0.43333333333333335,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "p_fix_security_coder": 0.3,
+      "p_fix_security_specialist": 0.75,
+      "B2_success": 0.43333333333333335,
+      "A2_success": 0.9666666666666667
+    },
+    {
+      "p_fix_security_coder": 0.45,
+      "p_fix_security_specialist": 0.6,
+      "B2_success": 0.43333333333333335,
+      "A2_success": 1.0
+    }
+  ]
+}
