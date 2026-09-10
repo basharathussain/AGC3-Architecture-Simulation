@@ -47,8 +47,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0229,
-  "execution_ms": 0.2488,
+  "decision_latency_ms": 0.0155,
+  "execution_ms": 0.1862,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154
@@ -181,8 +181,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0185,
-  "execution_ms": 0.1732,
+  "decision_latency_ms": 0.0092,
+  "execution_ms": 0.124,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432
@@ -315,8 +315,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0121,
-  "execution_ms": 0.1579,
+  "decision_latency_ms": 0.0085,
+  "execution_ms": 0.1162,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -451,8 +451,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0154,
-  "execution_ms": 0.2076,
+  "decision_latency_ms": 0.0081,
+  "execution_ms": 0.1126,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587
@@ -585,8 +585,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0125,
-  "execution_ms": 0.1723,
+  "decision_latency_ms": 0.0079,
+  "execution_ms": 0.1105,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194
@@ -719,8 +719,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0108,
-  "execution_ms": 0.1517,
+  "decision_latency_ms": 0.0074,
+  "execution_ms": 0.1065,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521
@@ -856,8 +856,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0103,
-  "execution_ms": 0.1561,
+  "decision_latency_ms": 0.0073,
+  "execution_ms": 0.1076,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184
@@ -992,8 +992,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0097,
-  "execution_ms": 0.1402,
+  "decision_latency_ms": 0.0119,
+  "execution_ms": 0.161,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427
@@ -1129,8 +1129,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0095,
-  "execution_ms": 0.1408,
+  "decision_latency_ms": 0.014,
+  "execution_ms": 0.175,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932
@@ -1263,8 +1263,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0094,
-  "execution_ms": 0.1387,
+  "decision_latency_ms": 0.0085,
+  "execution_ms": 0.1309,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007
@@ -1396,8 +1396,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0093,
-  "execution_ms": 0.1399,
+  "decision_latency_ms": 0.0076,
+  "execution_ms": 0.1113,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137
@@ -1534,8 +1534,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.01,
-  "execution_ms": 0.142,
+  "decision_latency_ms": 0.008,
+  "execution_ms": 0.1115,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173
@@ -1669,8 +1669,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0102,
-  "execution_ms": 0.1438,
+  "decision_latency_ms": 0.007,
+  "execution_ms": 0.1078,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168
@@ -1803,8 +1803,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0094,
-  "execution_ms": 0.1425,
+  "decision_latency_ms": 0.0072,
+  "execution_ms": 0.1057,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145
@@ -1941,8 +1941,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0118,
-  "execution_ms": 0.1653,
+  "decision_latency_ms": 0.0352,
+  "execution_ms": 0.208,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133
@@ -2081,8 +2081,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0104,
-  "execution_ms": 0.147,
+  "decision_latency_ms": 0.0082,
+  "execution_ms": 0.1268,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863
@@ -2216,8 +2216,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0098,
-  "execution_ms": 0.1423,
+  "decision_latency_ms": 0.0074,
+  "execution_ms": 0.1137,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014
@@ -2354,8 +2354,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0094,
-  "execution_ms": 0.139,
+  "decision_latency_ms": 0.0076,
+  "execution_ms": 0.1161,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119
@@ -2492,8 +2492,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0094,
-  "execution_ms": 0.1381,
+  "decision_latency_ms": 0.0105,
+  "execution_ms": 0.1535,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836
@@ -2631,8 +2631,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0098,
-  "execution_ms": 0.1458,
+  "decision_latency_ms": 0.0081,
+  "execution_ms": 0.1174,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251
@@ -2767,8 +2767,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0092,
-  "execution_ms": 0.1371,
+  "decision_latency_ms": 0.0073,
+  "execution_ms": 0.109,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912
@@ -2909,8 +2909,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0091,
-  "execution_ms": 0.1355,
+  "decision_latency_ms": 0.0069,
+  "execution_ms": 0.1056,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702
@@ -3050,8 +3050,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0095,
-  "execution_ms": 0.1382,
+  "decision_latency_ms": 0.0084,
+  "execution_ms": 0.1347,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -3184,8 +3184,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0096,
-  "execution_ms": 0.1385,
+  "decision_latency_ms": 0.0126,
+  "execution_ms": 0.1165,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674
@@ -3317,8 +3317,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0132,
-  "execution_ms": 0.1962,
+  "decision_latency_ms": 0.0103,
+  "execution_ms": 0.1427,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111
@@ -3456,8 +3456,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0101,
-  "execution_ms": 0.1481,
+  "decision_latency_ms": 0.0081,
+  "execution_ms": 0.1145,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338
@@ -3595,8 +3595,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0099,
-  "execution_ms": 0.1446,
+  "decision_latency_ms": 0.0101,
+  "execution_ms": 0.147,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588
@@ -3733,8 +3733,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0097,
-  "execution_ms": 0.1408,
+  "decision_latency_ms": 0.0076,
+  "execution_ms": 0.1157,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366
@@ -3866,8 +3866,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0095,
-  "execution_ms": 0.1388,
+  "decision_latency_ms": 0.0074,
+  "execution_ms": 0.1138,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708
@@ -4000,8 +4000,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0092,
-  "execution_ms": 0.1359,
+  "decision_latency_ms": 0.0077,
+  "execution_ms": 0.1157,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967
@@ -4138,8 +4138,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0115,
-  "execution_ms": 0.1932,
+  "decision_latency_ms": 0.0101,
+  "execution_ms": 0.1956,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154
@@ -4272,8 +4272,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0095,
-  "execution_ms": 0.1561,
+  "decision_latency_ms": 0.0091,
+  "execution_ms": 0.1553,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432
@@ -4406,8 +4406,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0105,
-  "execution_ms": 0.2105,
+  "decision_latency_ms": 0.0106,
+  "execution_ms": 0.1887,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -4554,8 +4554,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0117,
-  "execution_ms": 0.2165,
+  "decision_latency_ms": 0.0077,
+  "execution_ms": 0.1323,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587
@@ -4688,8 +4688,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0212,
-  "execution_ms": 0.2644,
+  "decision_latency_ms": 0.0079,
+  "execution_ms": 0.134,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194
@@ -4822,8 +4822,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0122,
-  "execution_ms": 0.1996,
+  "decision_latency_ms": 0.0088,
+  "execution_ms": 0.1438,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521
@@ -4959,8 +4959,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0161,
-  "execution_ms": 0.1988,
+  "decision_latency_ms": 0.0102,
+  "execution_ms": 0.1843,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184
@@ -5107,8 +5107,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0125,
-  "execution_ms": 0.1991,
+  "decision_latency_ms": 0.0073,
+  "execution_ms": 0.1308,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427
@@ -5250,8 +5250,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.01,
-  "execution_ms": 0.1679,
+  "decision_latency_ms": 0.0086,
+  "execution_ms": 0.1432,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932
@@ -5384,8 +5384,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0123,
-  "execution_ms": 0.1976,
+  "decision_latency_ms": 0.0074,
+  "execution_ms": 0.1248,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007
@@ -5517,8 +5517,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0102,
-  "execution_ms": 0.1775,
+  "decision_latency_ms": 0.0072,
+  "execution_ms": 0.1296,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137
@@ -5661,8 +5661,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0138,
-  "execution_ms": 0.2388,
+  "decision_latency_ms": 0.0075,
+  "execution_ms": 0.1354,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173
@@ -5802,8 +5802,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0113,
-  "execution_ms": 0.1809,
+  "decision_latency_ms": 0.0075,
+  "execution_ms": 0.1231,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168
@@ -5936,8 +5936,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0106,
-  "execution_ms": 0.1647,
+  "decision_latency_ms": 0.0085,
+  "execution_ms": 0.1444,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145
@@ -6074,8 +6074,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0098,
-  "execution_ms": 0.1554,
+  "decision_latency_ms": 0.007,
+  "execution_ms": 0.1162,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133
@@ -6214,8 +6214,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0092,
-  "execution_ms": 0.1508,
+  "decision_latency_ms": 0.0098,
+  "execution_ms": 0.1653,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863
@@ -6349,8 +6349,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0094,
-  "execution_ms": 0.1521,
+  "decision_latency_ms": 0.008,
+  "execution_ms": 0.1312,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014
@@ -6487,8 +6487,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0191,
-  "execution_ms": 0.2028,
+  "decision_latency_ms": 0.008,
+  "execution_ms": 0.133,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119
@@ -6625,8 +6625,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0105,
-  "execution_ms": 0.1656,
+  "decision_latency_ms": 0.0076,
+  "execution_ms": 0.1349,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836
@@ -6764,8 +6764,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0096,
-  "execution_ms": 0.1527,
+  "decision_latency_ms": 0.0094,
+  "execution_ms": 0.149,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251
@@ -6900,8 +6900,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0093,
-  "execution_ms": 0.1509,
+  "decision_latency_ms": 0.0075,
+  "execution_ms": 0.1247,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912
@@ -7042,8 +7042,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0094,
-  "execution_ms": 0.1493,
+  "decision_latency_ms": 0.0072,
+  "execution_ms": 0.1182,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702
@@ -7183,8 +7183,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.01,
-  "execution_ms": 0.185,
+  "decision_latency_ms": 0.0072,
+  "execution_ms": 0.1375,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -7329,8 +7329,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0102,
-  "execution_ms": 0.19,
+  "decision_latency_ms": 0.0075,
+  "execution_ms": 0.142,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674
@@ -7474,8 +7474,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0093,
-  "execution_ms": 0.1553,
+  "decision_latency_ms": 0.0078,
+  "execution_ms": 0.1303,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111
@@ -7613,8 +7613,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0098,
-  "execution_ms": 0.1791,
+  "decision_latency_ms": 0.0295,
+  "execution_ms": 0.1696,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338
@@ -7764,8 +7764,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0094,
-  "execution_ms": 0.1525,
+  "decision_latency_ms": 0.0071,
+  "execution_ms": 0.1176,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588
@@ -7902,8 +7902,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0095,
-  "execution_ms": 0.1535,
+  "decision_latency_ms": 0.0072,
+  "execution_ms": 0.1198,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366
@@ -8035,8 +8035,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.009,
-  "execution_ms": 0.1501,
+  "decision_latency_ms": 0.0068,
+  "execution_ms": 0.1138,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708
@@ -8169,8 +8169,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0143,
-  "execution_ms": 0.2206,
+  "decision_latency_ms": 0.0069,
+  "execution_ms": 0.1121,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967
@@ -8296,8 +8296,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0217,
-  "execution_ms": 0.4027,
+  "decision_latency_ms": 0.0232,
+  "execution_ms": 0.3049,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -8567,8 +8567,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0364,
-  "execution_ms": 0.9641,
+  "decision_latency_ms": 0.0251,
+  "execution_ms": 0.7022,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -9282,8 +9282,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0376,
-  "execution_ms": 0.9278,
+  "decision_latency_ms": 0.0248,
+  "execution_ms": 0.6846,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639,
@@ -9996,8 +9996,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0167,
-  "execution_ms": 0.4344,
+  "decision_latency_ms": 0.0104,
+  "execution_ms": 0.2511,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587,
@@ -10240,8 +10240,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0132,
-  "execution_ms": 0.335,
+  "decision_latency_ms": 0.0099,
+  "execution_ms": 0.2424,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -10469,8 +10469,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0355,
-  "execution_ms": 1.0086,
+  "decision_latency_ms": 0.0236,
+  "execution_ms": 0.6744,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -11190,8 +11190,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.014,
-  "execution_ms": 0.3805,
+  "decision_latency_ms": 0.0121,
+  "execution_ms": 0.3027,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184,
@@ -11441,8 +11441,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0368,
-  "execution_ms": 0.925,
+  "decision_latency_ms": 0.0259,
+  "execution_ms": 0.619,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -11996,8 +11996,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0136,
-  "execution_ms": 0.3373,
+  "decision_latency_ms": 0.0099,
+  "execution_ms": 0.2463,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -12229,8 +12229,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0324,
-  "execution_ms": 0.9555,
+  "decision_latency_ms": 0.0238,
+  "execution_ms": 0.6778,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -12937,8 +12937,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0402,
-  "execution_ms": 1.0922,
+  "decision_latency_ms": 0.0238,
+  "execution_ms": 0.6735,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -13692,8 +13692,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0146,
-  "execution_ms": 0.3657,
+  "decision_latency_ms": 0.0098,
+  "execution_ms": 0.2588,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -13957,8 +13957,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.032,
-  "execution_ms": 0.8317,
+  "decision_latency_ms": 0.0263,
+  "execution_ms": 0.6683,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -14500,8 +14500,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0096,
-  "execution_ms": 0.2285,
+  "decision_latency_ms": 0.0064,
+  "execution_ms": 0.1578,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -14650,8 +14650,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0397,
-  "execution_ms": 1.2746,
+  "decision_latency_ms": 0.024,
+  "execution_ms": 0.6806,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -15372,8 +15372,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0196,
-  "execution_ms": 0.5404,
+  "decision_latency_ms": 0.0119,
+  "execution_ms": 0.3057,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -15663,8 +15663,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0389,
-  "execution_ms": 1.1154,
+  "decision_latency_ms": 0.0241,
+  "execution_ms": 0.6824,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -16370,8 +16370,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0322,
-  "execution_ms": 0.9197,
+  "decision_latency_ms": 0.0236,
+  "execution_ms": 0.6778,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -17083,8 +17083,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0323,
-  "execution_ms": 0.966,
+  "decision_latency_ms": 0.0267,
+  "execution_ms": 0.7073,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -17836,8 +17836,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0175,
-  "execution_ms": 0.4438,
+  "decision_latency_ms": 0.0099,
+  "execution_ms": 0.2538,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -18089,8 +18089,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0209,
-  "execution_ms": 0.463,
+  "decision_latency_ms": 0.0115,
+  "execution_ms": 0.2973,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -18385,8 +18385,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0179,
-  "execution_ms": 0.435,
+  "decision_latency_ms": 0.0115,
+  "execution_ms": 0.3005,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -18694,8 +18694,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0212,
-  "execution_ms": 0.4572,
+  "decision_latency_ms": 0.0095,
+  "execution_ms": 0.2418,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901,
@@ -18927,8 +18927,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0326,
-  "execution_ms": 0.835,
+  "decision_latency_ms": 0.0231,
+  "execution_ms": 0.6091,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -19466,8 +19466,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0312,
-  "execution_ms": 0.8965,
+  "decision_latency_ms": 0.0269,
+  "execution_ms": 0.7585,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -20192,8 +20192,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0316,
-  "execution_ms": 0.905,
+  "decision_latency_ms": 0.0269,
+  "execution_ms": 0.7696,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338,
@@ -20916,8 +20916,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0593,
-  "execution_ms": 1.0974,
+  "decision_latency_ms": 0.024,
+  "execution_ms": 0.6766,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -21622,8 +21622,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0137,
-  "execution_ms": 0.3409,
+  "decision_latency_ms": 0.0095,
+  "execution_ms": 0.2472,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -21866,8 +21866,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0468,
-  "execution_ms": 1.2441,
+  "decision_latency_ms": 0.0422,
+  "execution_ms": 0.7265,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -22572,8 +22572,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.051,
-  "execution_ms": 1.6798,
+  "decision_latency_ms": 0.0305,
+  "execution_ms": 0.8293,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -23279,8 +23279,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0185,
-  "execution_ms": 0.4735,
+  "decision_latency_ms": 0.0129,
+  "execution_ms": 0.3695,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -23564,8 +23564,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0236,
-  "execution_ms": 0.9143,
+  "decision_latency_ms": 0.0117,
+  "execution_ms": 0.2753,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -23767,8 +23767,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0105,
-  "execution_ms": 0.2349,
+  "decision_latency_ms": 0.0071,
+  "execution_ms": 0.167,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -23907,8 +23907,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0167,
-  "execution_ms": 0.442,
+  "decision_latency_ms": 0.0113,
+  "execution_ms": 0.3253,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587,
@@ -24163,8 +24163,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1137,
-  "execution_ms": 1.5273,
+  "decision_latency_ms": 0.0113,
+  "execution_ms": 0.3247,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -24413,8 +24413,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0378,
-  "execution_ms": 1.1461,
+  "decision_latency_ms": 0.0246,
+  "execution_ms": 0.7883,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -25155,8 +25155,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0147,
-  "execution_ms": 0.4095,
+  "decision_latency_ms": 0.0102,
+  "execution_ms": 0.2929,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184,
@@ -25402,8 +25402,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0355,
-  "execution_ms": 0.9974,
+  "decision_latency_ms": 0.0243,
+  "execution_ms": 0.7147,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -25992,8 +25992,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0119,
-  "execution_ms": 0.2851,
+  "decision_latency_ms": 0.0086,
+  "execution_ms": 0.2061,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -26163,8 +26163,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0357,
-  "execution_ms": 1.1111,
+  "decision_latency_ms": 0.024,
+  "execution_ms": 0.7695,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -26883,8 +26883,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0322,
-  "execution_ms": 1.0315,
+  "decision_latency_ms": 0.024,
+  "execution_ms": 0.7688,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -27652,8 +27652,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0216,
-  "execution_ms": 0.5842,
+  "decision_latency_ms": 0.0141,
+  "execution_ms": 0.414,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -28013,8 +28013,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0329,
-  "execution_ms": 0.954,
+  "decision_latency_ms": 0.0248,
+  "execution_ms": 0.7025,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -28557,8 +28557,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0152,
-  "execution_ms": 0.3016,
+  "decision_latency_ms": 0.0058,
+  "execution_ms": 0.1556,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -28709,8 +28709,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0216,
-  "execution_ms": 0.5069,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2844,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -28984,8 +28984,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0202,
-  "execution_ms": 0.554,
+  "decision_latency_ms": 0.0138,
+  "execution_ms": 0.4016,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -29326,8 +29326,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0118,
-  "execution_ms": 0.3083,
+  "decision_latency_ms": 0.0082,
+  "execution_ms": 0.2209,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -29526,8 +29526,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0444,
-  "execution_ms": 1.3778,
+  "decision_latency_ms": 0.0243,
+  "execution_ms": 0.7729,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -30266,8 +30266,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0178,
-  "execution_ms": 0.4381,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2833,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -30541,8 +30541,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0175,
-  "execution_ms": 0.4964,
+  "decision_latency_ms": 0.0122,
+  "execution_ms": 0.3715,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -30853,8 +30853,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0166,
-  "execution_ms": 0.4759,
+  "decision_latency_ms": 0.0135,
+  "execution_ms": 0.3704,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -31163,8 +31163,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0197,
-  "execution_ms": 0.5322,
+  "decision_latency_ms": 0.0129,
+  "execution_ms": 0.3609,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -31487,8 +31487,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.011,
-  "execution_ms": 0.2406,
+  "decision_latency_ms": 0.0061,
+  "execution_ms": 0.1547,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -31626,8 +31626,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0342,
-  "execution_ms": 1.009,
+  "decision_latency_ms": 0.0248,
+  "execution_ms": 0.7204,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -32204,8 +32204,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0114,
-  "execution_ms": 0.302,
+  "decision_latency_ms": 0.0083,
+  "execution_ms": 0.2249,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -32409,8 +32409,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0365,
-  "execution_ms": 1.1197,
+  "decision_latency_ms": 0.024,
+  "execution_ms": 0.7705,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338,
@@ -33157,8 +33157,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0158,
-  "execution_ms": 0.4146,
+  "decision_latency_ms": 0.0155,
+  "execution_ms": 0.3739,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -33429,8 +33429,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0146,
-  "execution_ms": 0.4188,
+  "decision_latency_ms": 0.0139,
+  "execution_ms": 0.333,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -33693,8 +33693,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0326,
-  "execution_ms": 1.0287,
+  "decision_latency_ms": 0.0284,
+  "execution_ms": 0.8715,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -34419,8 +34419,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0328,
-  "execution_ms": 1.0372,
+  "decision_latency_ms": 0.027,
+  "execution_ms": 0.8157,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -35152,8 +35152,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0204,
-  "execution_ms": 0.3489,
+  "decision_latency_ms": 0.0173,
+  "execution_ms": 0.275,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -35408,8 +35408,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0241,
-  "execution_ms": 0.5075,
+  "decision_latency_ms": 0.0109,
+  "execution_ms": 0.2585,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -35671,8 +35671,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0149,
-  "execution_ms": 0.361,
+  "decision_latency_ms": 0.0101,
+  "execution_ms": 0.257,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639,
@@ -35936,8 +35936,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0149,
-  "execution_ms": 0.3303,
+  "decision_latency_ms": 0.0127,
+  "execution_ms": 0.2735,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587,
@@ -36165,8 +36165,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0137,
-  "execution_ms": 0.3165,
+  "decision_latency_ms": 0.0136,
+  "execution_ms": 0.2867,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -36379,8 +36379,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0131,
-  "execution_ms": 0.3388,
+  "decision_latency_ms": 0.0108,
+  "execution_ms": 0.2651,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -36646,8 +36646,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.022,
-  "execution_ms": 0.5203,
+  "decision_latency_ms": 0.0099,
+  "execution_ms": 0.2508,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184,
@@ -36882,8 +36882,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.014,
-  "execution_ms": 0.36,
+  "decision_latency_ms": 0.0094,
+  "execution_ms": 0.2543,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -37143,8 +37143,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0133,
-  "execution_ms": 0.3215,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2644,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -37361,8 +37361,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0127,
-  "execution_ms": 0.3346,
+  "decision_latency_ms": 0.0095,
+  "execution_ms": 0.2529,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -37626,8 +37626,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.013,
-  "execution_ms": 0.3322,
+  "decision_latency_ms": 0.0126,
+  "execution_ms": 0.262,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -37891,8 +37891,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0375,
-  "execution_ms": 0.7284,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2497,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -38141,8 +38141,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0464,
-  "execution_ms": 0.8796,
+  "decision_latency_ms": 0.0098,
+  "execution_ms": 0.2622,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -38397,8 +38397,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0102,
-  "execution_ms": 0.2545,
+  "decision_latency_ms": 0.0049,
+  "execution_ms": 0.1429,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -38550,8 +38550,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0157,
-  "execution_ms": 0.3855,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2602,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -38825,8 +38825,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.014,
-  "execution_ms": 0.3356,
+  "decision_latency_ms": 0.0098,
+  "execution_ms": 0.25,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -39062,8 +39062,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0182,
-  "execution_ms": 0.4623,
+  "decision_latency_ms": 0.0095,
+  "execution_ms": 0.2525,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -39325,8 +39325,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.014,
-  "execution_ms": 0.3436,
+  "decision_latency_ms": 0.0156,
+  "execution_ms": 0.3316,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -39592,8 +39592,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.016,
-  "execution_ms": 0.3781,
+  "decision_latency_ms": 0.013,
+  "execution_ms": 0.3061,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -39865,8 +39865,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0133,
-  "execution_ms": 0.334,
+  "decision_latency_ms": 0.011,
+  "execution_ms": 0.2732,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -40105,8 +40105,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.017,
-  "execution_ms": 0.378,
+  "decision_latency_ms": 0.0119,
+  "execution_ms": 0.2852,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -40349,8 +40349,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0173,
-  "execution_ms": 0.385,
+  "decision_latency_ms": 0.0099,
+  "execution_ms": 0.2521,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -40604,8 +40604,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0158,
-  "execution_ms": 0.3511,
+  "decision_latency_ms": 0.0097,
+  "execution_ms": 0.2353,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901,
@@ -40822,8 +40822,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0133,
-  "execution_ms": 0.345,
+  "decision_latency_ms": 0.0095,
+  "execution_ms": 0.2516,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -41075,8 +41075,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.018,
-  "execution_ms": 0.4795,
+  "decision_latency_ms": 0.0252,
+  "execution_ms": 0.3282,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -41347,8 +41347,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0157,
-  "execution_ms": 0.379,
+  "decision_latency_ms": 0.0106,
+  "execution_ms": 0.28,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338,
@@ -41617,8 +41617,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.016,
-  "execution_ms": 0.3723,
+  "decision_latency_ms": 0.0119,
+  "execution_ms": 0.2867,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -41877,8 +41877,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0172,
-  "execution_ms": 0.3696,
+  "decision_latency_ms": 0.0143,
+  "execution_ms": 0.2519,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -42108,8 +42108,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0144,
-  "execution_ms": 0.3451,
+  "decision_latency_ms": 0.0097,
+  "execution_ms": 0.2581,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -42366,8 +42366,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0134,
-  "execution_ms": 0.3384,
+  "decision_latency_ms": 0.0092,
+  "execution_ms": 0.261,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -42627,8 +42627,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0134,
-  "execution_ms": 0.401,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2982,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -42896,8 +42896,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0197,
-  "execution_ms": 0.5333,
+  "decision_latency_ms": 0.0168,
+  "execution_ms": 0.3714,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -43179,8 +43179,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0155,
-  "execution_ms": 0.4349,
+  "decision_latency_ms": 0.0165,
+  "execution_ms": 0.3891,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639,
@@ -43456,8 +43456,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.014,
-  "execution_ms": 0.3967,
+  "decision_latency_ms": 0.0107,
+  "execution_ms": 0.3022,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587,
@@ -43697,8 +43697,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0138,
-  "execution_ms": 0.378,
+  "decision_latency_ms": 0.0102,
+  "execution_ms": 0.2872,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -43932,8 +43932,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0132,
-  "execution_ms": 0.4009,
+  "decision_latency_ms": 0.0105,
+  "execution_ms": 0.3206,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -44225,8 +44225,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.012,
-  "execution_ms": 0.2758,
+  "decision_latency_ms": 0.0178,
+  "execution_ms": 0.1824,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184
@@ -44377,8 +44377,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0142,
-  "execution_ms": 0.4131,
+  "decision_latency_ms": 0.0126,
+  "execution_ms": 0.3604,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -44652,8 +44652,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0132,
-  "execution_ms": 0.3778,
+  "decision_latency_ms": 0.0103,
+  "execution_ms": 0.2878,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -44890,8 +44890,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0133,
-  "execution_ms": 0.3946,
+  "decision_latency_ms": 0.0104,
+  "execution_ms": 0.3105,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -45168,8 +45168,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0105,
-  "execution_ms": 0.31,
+  "decision_latency_ms": 0.0084,
+  "execution_ms": 0.2385,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -45387,8 +45387,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0203,
-  "execution_ms": 0.5646,
+  "decision_latency_ms": 0.0085,
+  "execution_ms": 0.2546,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -45611,8 +45611,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0112,
-  "execution_ms": 0.3114,
+  "decision_latency_ms": 0.0106,
+  "execution_ms": 0.2451,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -45820,8 +45820,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0068,
-  "execution_ms": 0.2044,
+  "decision_latency_ms": 0.005,
+  "execution_ms": 0.1555,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -45973,8 +45973,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0129,
-  "execution_ms": 0.3994,
+  "decision_latency_ms": 0.011,
+  "execution_ms": 0.3243,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -46260,8 +46260,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0108,
-  "execution_ms": 0.2998,
+  "decision_latency_ms": 0.0085,
+  "execution_ms": 0.2352,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -46460,8 +46460,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0134,
-  "execution_ms": 0.3972,
+  "decision_latency_ms": 0.0112,
+  "execution_ms": 0.3251,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -46738,8 +46738,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0142,
-  "execution_ms": 0.3741,
+  "decision_latency_ms": 0.0105,
+  "execution_ms": 0.2853,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -47004,8 +47004,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0136,
-  "execution_ms": 0.4005,
+  "decision_latency_ms": 0.0116,
+  "execution_ms": 0.3268,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -47291,8 +47291,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0134,
-  "execution_ms": 0.3904,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2955,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -47552,8 +47552,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0108,
-  "execution_ms": 0.3085,
+  "decision_latency_ms": 0.0084,
+  "execution_ms": 0.2356,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -47772,8 +47772,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.012,
-  "execution_ms": 0.3442,
+  "decision_latency_ms": 0.0093,
+  "execution_ms": 0.2667,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -48028,8 +48028,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0237,
-  "execution_ms": 0.4728,
+  "decision_latency_ms": 0.01,
+  "execution_ms": 0.2876,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901,
@@ -48268,8 +48268,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0144,
-  "execution_ms": 0.4133,
+  "decision_latency_ms": 0.0096,
+  "execution_ms": 0.3013,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -48542,8 +48542,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0135,
-  "execution_ms": 0.3978,
+  "decision_latency_ms": 0.0098,
+  "execution_ms": 0.2957,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -48830,8 +48830,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.009,
-  "execution_ms": 0.2286,
+  "decision_latency_ms": 0.011,
+  "execution_ms": 0.2369,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338
@@ -48991,8 +48991,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0132,
-  "execution_ms": 0.3952,
+  "decision_latency_ms": 0.0141,
+  "execution_ms": 0.3181,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -49273,8 +49273,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0215,
-  "execution_ms": 0.5333,
+  "decision_latency_ms": 0.0105,
+  "execution_ms": 0.3032,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -49524,8 +49524,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0117,
-  "execution_ms": 0.3098,
+  "decision_latency_ms": 0.0085,
+  "execution_ms": 0.2534,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -49737,8 +49737,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.012,
-  "execution_ms": 0.3431,
+  "decision_latency_ms": 0.0105,
+  "execution_ms": 0.2792,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -50180,8 +50180,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2403,
-  "execution_ms": 0.6183,
+  "decision_latency_ms": 0.2171,
+  "execution_ms": 0.5619,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -50851,8 +50851,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3069,
-  "execution_ms": 0.9495,
+  "decision_latency_ms": 0.232,
+  "execution_ms": 0.7408,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -51865,8 +51865,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3818,
-  "execution_ms": 1.1827,
+  "decision_latency_ms": 0.2889,
+  "execution_ms": 0.9142,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639,
@@ -52734,8 +52734,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1548,
-  "execution_ms": 0.5069,
+  "decision_latency_ms": 0.1406,
+  "execution_ms": 0.4236,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587,
@@ -53281,8 +53281,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2268,
-  "execution_ms": 0.6697,
+  "decision_latency_ms": 0.1613,
+  "execution_ms": 0.4998,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -54069,8 +54069,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4611,
-  "execution_ms": 1.3535,
+  "decision_latency_ms": 0.2737,
+  "execution_ms": 0.8435,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -55095,8 +55095,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2785,
-  "execution_ms": 0.8672,
+  "decision_latency_ms": 0.2035,
+  "execution_ms": 0.6461,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184,
@@ -56202,8 +56202,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4902,
-  "execution_ms": 1.3972,
+  "decision_latency_ms": 0.3886,
+  "execution_ms": 1.1055,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -57218,8 +57218,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1679,
-  "execution_ms": 0.5314,
+  "decision_latency_ms": 0.1253,
+  "execution_ms": 0.3979,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -57937,8 +57937,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4184,
-  "execution_ms": 1.1726,
+  "decision_latency_ms": 0.2933,
+  "execution_ms": 0.927,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -59091,8 +59091,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4037,
-  "execution_ms": 1.2031,
+  "decision_latency_ms": 0.333,
+  "execution_ms": 1.0008,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -60007,8 +60007,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1527,
-  "execution_ms": 0.5079,
+  "decision_latency_ms": 0.1673,
+  "execution_ms": 0.4913,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -60730,8 +60730,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.323,
-  "execution_ms": 0.961,
+  "decision_latency_ms": 0.2708,
+  "execution_ms": 0.7884,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -61356,8 +61356,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0525,
-  "execution_ms": 0.2472,
+  "decision_latency_ms": 0.0442,
+  "execution_ms": 0.2015,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -62055,8 +62055,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4657,
-  "execution_ms": 1.4385,
+  "decision_latency_ms": 0.3542,
+  "execution_ms": 1.1018,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -63146,8 +63146,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1948,
-  "execution_ms": 0.6218,
+  "decision_latency_ms": 0.1675,
+  "execution_ms": 0.5245,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -63944,8 +63944,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3183,
-  "execution_ms": 1.0226,
+  "decision_latency_ms": 0.2543,
+  "execution_ms": 0.8084,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -65155,8 +65155,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4109,
-  "execution_ms": 1.3415,
+  "decision_latency_ms": 0.3268,
+  "execution_ms": 0.9925,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -66358,8 +66358,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2794,
-  "execution_ms": 0.9092,
+  "decision_latency_ms": 0.2251,
+  "execution_ms": 0.7288,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -67179,8 +67179,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1462,
-  "execution_ms": 0.4877,
+  "decision_latency_ms": 0.1588,
+  "execution_ms": 0.4938,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -67669,8 +67669,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1493,
-  "execution_ms": 0.504,
+  "decision_latency_ms": 0.1302,
+  "execution_ms": 0.417,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -68241,8 +68241,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1935,
-  "execution_ms": 0.6282,
+  "decision_latency_ms": 0.1488,
+  "execution_ms": 0.4874,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -68829,8 +68829,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.18,
-  "execution_ms": 0.6018,
+  "decision_latency_ms": 0.1184,
+  "execution_ms": 0.3915,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901,
@@ -69570,8 +69570,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.372,
-  "execution_ms": 1.0541,
+  "decision_latency_ms": 0.2459,
+  "execution_ms": 0.7319,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -70380,8 +70380,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2257,
-  "execution_ms": 0.7428,
+  "decision_latency_ms": 0.1498,
+  "execution_ms": 0.5104,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -71306,8 +71306,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4013,
-  "execution_ms": 1.2434,
+  "decision_latency_ms": 0.3042,
+  "execution_ms": 0.9422,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338,
@@ -72597,8 +72597,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4297,
-  "execution_ms": 1.3785,
+  "decision_latency_ms": 0.3093,
+  "execution_ms": 0.9921,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -73566,8 +73566,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1158,
-  "execution_ms": 0.4135,
+  "decision_latency_ms": 0.0851,
+  "execution_ms": 0.309,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -74341,8 +74341,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4317,
-  "execution_ms": 1.3214,
+  "decision_latency_ms": 0.3498,
+  "execution_ms": 1.1459,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -75593,8 +75593,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3414,
-  "execution_ms": 1.0725,
+  "decision_latency_ms": 0.2545,
+  "execution_ms": 0.8065,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -76465,8 +76465,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1567,
-  "execution_ms": 0.5925,
+  "decision_latency_ms": 0.1349,
+  "execution_ms": 0.5543,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -76919,8 +76919,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.109,
-  "execution_ms": 0.4262,
+  "decision_latency_ms": 0.0813,
+  "execution_ms": 0.3202,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -77240,8 +77240,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0806,
-  "execution_ms": 0.3432,
+  "decision_latency_ms": 0.0444,
+  "execution_ms": 0.2072,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -77772,8 +77772,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2838,
-  "execution_ms": 0.9373,
+  "decision_latency_ms": 0.2293,
+  "execution_ms": 0.7443,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587,
@@ -78528,8 +78528,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1933,
-  "execution_ms": 0.6755,
+  "decision_latency_ms": 0.1467,
+  "execution_ms": 0.5157,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -79348,8 +79348,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3252,
-  "execution_ms": 1.1351,
+  "decision_latency_ms": 0.2476,
+  "execution_ms": 0.867,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -80462,8 +80462,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3533,
-  "execution_ms": 1.1617,
+  "decision_latency_ms": 0.2698,
+  "execution_ms": 0.9241,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184,
@@ -81669,8 +81669,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4998,
-  "execution_ms": 1.5567,
+  "decision_latency_ms": 0.381,
+  "execution_ms": 1.2228,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -82639,8 +82639,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1188,
-  "execution_ms": 0.4291,
+  "decision_latency_ms": 0.0832,
+  "execution_ms": 0.2907,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -83396,8 +83396,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4304,
-  "execution_ms": 1.4206,
+  "decision_latency_ms": 0.3215,
+  "execution_ms": 1.0638,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -84743,8 +84743,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4189,
-  "execution_ms": 1.4156,
+  "decision_latency_ms": 0.3049,
+  "execution_ms": 1.0121,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -85732,8 +85732,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2267,
-  "execution_ms": 0.7783,
+  "decision_latency_ms": 0.1431,
+  "execution_ms": 0.526,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -86669,8 +86669,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4264,
-  "execution_ms": 1.3488,
+  "decision_latency_ms": 0.3172,
+  "execution_ms": 1.0082,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -87441,8 +87441,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0612,
-  "execution_ms": 0.2811,
+  "decision_latency_ms": 0.0398,
+  "execution_ms": 0.1988,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -87805,8 +87805,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1542,
-  "execution_ms": 0.5603,
+  "decision_latency_ms": 0.1164,
+  "execution_ms": 0.4063,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -88512,8 +88512,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2839,
-  "execution_ms": 0.9369,
+  "decision_latency_ms": 0.2173,
+  "execution_ms": 0.7239,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -89164,8 +89164,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1017,
-  "execution_ms": 0.3958,
+  "decision_latency_ms": 0.1178,
+  "execution_ms": 0.4264,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -90066,8 +90066,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4906,
-  "execution_ms": 1.5657,
+  "decision_latency_ms": 0.4159,
+  "execution_ms": 1.2818,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -91244,8 +91244,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1586,
-  "execution_ms": 0.5715,
+  "decision_latency_ms": 0.1188,
+  "execution_ms": 0.433,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -91852,8 +91852,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.201,
-  "execution_ms": 0.6892,
+  "decision_latency_ms": 0.1555,
+  "execution_ms": 0.534,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -92425,8 +92425,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1609,
-  "execution_ms": 0.5925,
+  "decision_latency_ms": 0.1384,
+  "execution_ms": 0.4696,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -93023,8 +93023,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3028,
-  "execution_ms": 0.8309,
+  "decision_latency_ms": 0.1499,
+  "execution_ms": 0.5945,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -93526,8 +93526,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0577,
-  "execution_ms": 0.271,
+  "decision_latency_ms": 0.0505,
+  "execution_ms": 0.2278,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -94236,8 +94236,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4217,
-  "execution_ms": 1.3605,
+  "decision_latency_ms": 0.3168,
+  "execution_ms": 1.0127,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -95110,8 +95110,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1032,
-  "execution_ms": 0.3945,
+  "decision_latency_ms": 0.0783,
+  "execution_ms": 0.3052,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -95676,8 +95676,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3168,
-  "execution_ms": 1.0429,
+  "decision_latency_ms": 0.1818,
+  "execution_ms": 0.6682,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338,
@@ -96415,8 +96415,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1513,
-  "execution_ms": 0.549,
+  "decision_latency_ms": 0.1051,
+  "execution_ms": 0.4053,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -96879,8 +96879,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.105,
-  "execution_ms": 0.4265,
+  "decision_latency_ms": 0.0817,
+  "execution_ms": 0.321,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -97789,8 +97789,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.5518,
-  "execution_ms": 1.6624,
+  "decision_latency_ms": 0.4803,
+  "execution_ms": 1.4458,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -99195,8 +99195,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3395,
-  "execution_ms": 1.1836,
+  "decision_latency_ms": 0.2765,
+  "execution_ms": 0.9388,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -100086,8 +100086,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1505,
-  "execution_ms": 0.5054,
+  "decision_latency_ms": 0.116,
+  "execution_ms": 0.3904,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -100762,8 +100762,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3057,
-  "execution_ms": 1.0293,
+  "decision_latency_ms": 0.2308,
+  "execution_ms": 0.731,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -101782,8 +101782,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3511,
-  "execution_ms": 1.1236,
+  "decision_latency_ms": 0.258,
+  "execution_ms": 0.81,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639,
@@ -102627,6 +102627,556 @@
       "Planner": 1,
       "Security": 2,
       "Tester": 3
+     },
+     "unavailable": [],
+     "security_agent_active": true
+    }
+   }
+  ],
+  "final_artefact": {
+   "endpoints": [
+    "GET /me",
+    "POST /login",
+    "POST /logout",
+    "POST /refresh",
+    "POST /register"
+   ],
+   "defects": []
+  },
+  "final_confidence": 1.0,
+  "functional": [
+   8,
+   8
+  ],
+  "security": [
+   7,
+   7
+  ],
+  "audit_completeness": 1.0,
+  "decision_latency_ms": 0.1209,
+  "execution_ms": 0.4011,
+  "governance_violations": 0,
+  "calibration_errors": [
+   0.373587,
+   -0.079126,
+   -0.182474,
+   -0.128939
+  ],
+  "events": [
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Planner",
+    "step": 0,
+    "payload": {
+     "planned": 5
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Coder",
+    "step": 1,
+    "payload": {
+     "attempt": 0,
+     "defects": 7
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Tester",
+    "step": 2,
+    "payload": {
+     "confidence": 0.5089285714285714,
+     "functional": [
+      7,
+      8
+     ],
+     "security": [
+      1,
+      7
+     ],
+     "self_report": 0.8825157238185991,
+     "calibration_error": 0.3735871523900277
+    }
+   },
+   {
+    "type": "TEST_FAILED",
+    "source": "Tester",
+    "step": 2,
+    "payload": {
+     "failures": [
+      "F6"
+     ]
+    }
+   },
+   {
+    "type": "SECURITY_FAILURE",
+    "source": "Tester",
+    "step": 2,
+    "payload": {
+     "failures": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S6",
+      "S7"
+     ]
+    }
+   },
+   {
+    "type": "LOW_CONFIDENCE",
+    "source": "Tester",
+    "step": 2,
+    "payload": {
+     "confidence": 0.5089285714285714
+    }
+   },
+   {
+    "type": "GRAPH_MUTATED",
+    "source": "kernel",
+    "step": 3,
+    "payload": {
+     "diff": "+Security, +Security->Tester, +Tester->Security"
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Security",
+    "step": 3,
+    "payload": {
+     "cleared": [
+      "alg_none_accepted",
+      "no_authz_on_me",
+      "plaintext_password",
+      "sqli_login",
+      "user_enumeration",
+      "weak_password_accepted"
+     ]
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Tester",
+    "step": 4,
+    "payload": {
+     "confidence": 0.9375,
+     "functional": [
+      7,
+      8
+     ],
+     "security": [
+      7,
+      7
+     ],
+     "self_report": 0.8583739617626006,
+     "calibration_error": -0.07912603823739939
+    }
+   },
+   {
+    "type": "TEST_FAILED",
+    "source": "Tester",
+    "step": 4,
+    "payload": {
+     "failures": [
+      "F6"
+     ]
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Security",
+    "step": 5,
+    "payload": {
+     "cleared": []
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Tester",
+    "step": 6,
+    "payload": {
+     "confidence": 0.9375,
+     "functional": [
+      7,
+      8
+     ],
+     "security": [
+      7,
+      7
+     ],
+     "self_report": 0.7550258258643536,
+     "calibration_error": -0.18247417413564637
+    }
+   },
+   {
+    "type": "TEST_FAILED",
+    "source": "Tester",
+    "step": 6,
+    "payload": {
+     "failures": [
+      "F6"
+     ]
+    }
+   },
+   {
+    "type": "GRAPH_MUTATED",
+    "source": "kernel",
+    "step": 7,
+    "payload": {
+     "diff": "+Tester->Coder"
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Coder",
+    "step": 7,
+    "payload": {
+     "attempt": 1,
+     "defects": 0
+    }
+   },
+   {
+    "type": "AGENT_COMPLETED",
+    "source": "Tester",
+    "step": 8,
+    "payload": {
+     "confidence": 1.0,
+     "functional": [
+      8,
+      8
+     ],
+     "security": [
+      7,
+      7
+     ],
+     "self_report": 0.8710605256268907,
+     "calibration_error": -0.12893947437310926
+    }
+   },
+   {
+    "type": "ALL_SUITES_GREEN",
+    "source": "Tester",
+    "step": 8,
+    "payload": {}
+   }
+  ],
+  "extra": {},
+  "decisions_trace": [
+   {
+    "step": 3,
+    "confidence": 0.508929,
+    "p_success": {
+     "RETRY_CODER": 0.5,
+     "INVOKE_SECURITY": 0.5,
+     "REPLAN": 0.5
+    },
+    "scores": {
+     "RETRY_CODER": 0.210714,
+     "INVOKE_SECURITY": 0.35625,
+     "REPLAN": 0.104464
+    },
+    "rejected": {
+     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK",
+     "TERMINATE": "NO_TERMINATION_WHILE_RECOVERABLE"
+    },
+    "selected": "INVOKE_SECURITY"
+   },
+   {
+    "step": 5,
+    "confidence": 0.9375,
+    "p_success": {
+     "RETRY_CODER": 0.5,
+     "INVOKE_SECURITY": 0.666667,
+     "REPLAN": 0.5,
+     "TERMINATE": 0.5
+    },
+    "scores": {
+     "RETRY_CODER": 0.425,
+     "INVOKE_SECURITY": 0.5125,
+     "REPLAN": 0.31875,
+     "TERMINATE": -0.15
+    },
+    "rejected": {
+     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
+    },
+    "selected": "INVOKE_SECURITY"
+   },
+   {
+    "step": 7,
+    "confidence": 0.9375,
+    "p_success": {
+     "RETRY_CODER": 0.5,
+     "INVOKE_SECURITY": 0.5,
+     "REPLAN": 0.5,
+     "TERMINATE": 0.5
+    },
+    "scores": {
+     "RETRY_CODER": 0.425,
+     "INVOKE_SECURITY": 0.35625,
+     "REPLAN": 0.31875,
+     "TERMINATE": -0.15
+    },
+    "rejected": {
+     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
+    },
+    "selected": "RETRY_CODER"
+   }
+  ],
+  "decision_violations": []
+ },
+ {
+  "arm": "A2",
+  "env": "nominal",
+  "seed": 5,
+  "outcome": "success",
+  "success": true,
+  "steps": 11,
+  "invocations": {
+   "Coder": 2,
+   "Planner": 1,
+   "Security": 3,
+   "Tester": 5
+  },
+  "graph_history": [
+   "Planner -> Coder -> Tester -> Reviewer",
+   "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+   "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Coder'), ('Tester', 'Reviewer'), ('Tester', 'Security')]"
+  ],
+  "adaptations": [
+   {
+    "step": 3,
+    "trigger": "SECURITY_FAILURE",
+    "confidence": 0.517857,
+    "candidates": [
+     "ACCEPT",
+     "RETRY_CODER",
+     "INVOKE_SECURITY",
+     "REPLAN",
+     "TERMINATE"
+    ],
+    "rejected": {
+     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK",
+     "TERMINATE": "NO_TERMINATION_WHILE_RECOVERABLE"
+    },
+    "scores": {
+     "RETRY_CODER": 0.246429,
+     "INVOKE_SECURITY": 0.325,
+     "REPLAN": 0.108929
+    },
+    "selected": "INVOKE_SECURITY",
+    "graph_before": "Planner -> Coder -> Tester -> Reviewer",
+    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+    "graph_diff": {
+     "nodes_added": [
+      "Security"
+     ],
+     "nodes_removed": [],
+     "edges_added": [
+      [
+       "Security",
+       "Tester"
+      ],
+      [
+       "Tester",
+       "Security"
+      ]
+     ],
+     "edges_removed": []
+    },
+    "state_after": {
+     "step": 2,
+     "current_agent": "Tester",
+     "task_status": "verification_failed",
+     "confidence": 0.517857,
+     "functional_tests": {
+      "passed": 6,
+      "total": 8
+     },
+     "security_tests": {
+      "passed": 2,
+      "total": 7
+     },
+     "security_failure": true,
+     "functional_failure": true,
+     "low_confidence": true,
+     "deployment_allowed": false,
+     "attempts": {
+      "Coder": 1,
+      "Planner": 1,
+      "Tester": 1
+     },
+     "unavailable": [],
+     "security_agent_active": false
+    }
+   },
+   {
+    "step": 5,
+    "trigger": "SECURITY_FAILURE",
+    "confidence": 0.803571,
+    "candidates": [
+     "ACCEPT",
+     "RETRY_CODER",
+     "INVOKE_SECURITY",
+     "REPLAN",
+     "TERMINATE"
+    ],
+    "rejected": {
+     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
+    },
+    "scores": {
+     "RETRY_CODER": 0.389286,
+     "INVOKE_SECURITY": 0.470833,
+     "REPLAN": 0.251786,
+     "TERMINATE": -0.15
+    },
+    "selected": "INVOKE_SECURITY",
+    "graph_before": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+    "graph_diff": {
+     "nodes_added": [],
+     "nodes_removed": [],
+     "edges_added": [],
+     "edges_removed": []
+    },
+    "state_after": {
+     "step": 4,
+     "current_agent": "Tester",
+     "task_status": "verification_failed",
+     "confidence": 0.803571,
+     "functional_tests": {
+      "passed": 6,
+      "total": 8
+     },
+     "security_tests": {
+      "passed": 6,
+      "total": 7
+     },
+     "security_failure": true,
+     "functional_failure": true,
+     "low_confidence": true,
+     "deployment_allowed": false,
+     "attempts": {
+      "Coder": 1,
+      "Planner": 1,
+      "Security": 1,
+      "Tester": 2
+     },
+     "unavailable": [],
+     "security_agent_active": true
+    }
+   },
+   {
+    "step": 7,
+    "trigger": "SECURITY_FAILURE",
+    "confidence": 0.875,
+    "candidates": [
+     "ACCEPT",
+     "RETRY_CODER",
+     "INVOKE_SECURITY",
+     "REPLAN",
+     "TERMINATE"
+    ],
+    "rejected": {
+     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
+    },
+    "scores": {
+     "RETRY_CODER": 0.425,
+     "INVOKE_SECURITY": 0.54375,
+     "REPLAN": 0.2875,
+     "TERMINATE": -0.15
+    },
+    "selected": "INVOKE_SECURITY",
+    "graph_before": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+    "graph_diff": {
+     "nodes_added": [],
+     "nodes_removed": [],
+     "edges_added": [],
+     "edges_removed": []
+    },
+    "state_after": {
+     "step": 6,
+     "current_agent": "Tester",
+     "task_status": "verification_failed",
+     "confidence": 0.875,
+     "functional_tests": {
+      "passed": 6,
+      "total": 8
+     },
+     "security_tests": {
+      "passed": 7,
+      "total": 7
+     },
+     "security_failure": true,
+     "functional_failure": true,
+     "low_confidence": true,
+     "deployment_allowed": false,
+     "attempts": {
+      "Coder": 1,
+      "Planner": 1,
+      "Security": 2,
+      "Tester": 3
+     },
+     "unavailable": [],
+     "security_agent_active": true
+    }
+   },
+   {
+    "step": 9,
+    "trigger": "SECURITY_FAILURE",
+    "confidence": 0.875,
+    "candidates": [
+     "ACCEPT",
+     "RETRY_CODER",
+     "INVOKE_SECURITY",
+     "REPLAN",
+     "TERMINATE"
+    ],
+    "rejected": {
+     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
+    },
+    "scores": {
+     "RETRY_CODER": 0.425,
+     "INVOKE_SECURITY": 0.4125,
+     "REPLAN": 0.2875,
+     "TERMINATE": -0.15
+    },
+    "selected": "RETRY_CODER",
+    "graph_before": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Coder'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
+    "graph_diff": {
+     "nodes_added": [],
+     "nodes_removed": [],
+     "edges_added": [
+      [
+       "Tester",
+       "Coder"
+      ]
+     ],
+     "edges_removed": []
+    },
+    "state_after": {
+     "step": 8,
+     "current_agent": "Tester",
+     "task_status": "verification_failed",
+     "confidence": 0.875,
+     "functional_tests": {
+      "passed": 6,
+      "total": 8
+     },
+     "security_tests": {
+      "passed": 7,
+      "total": 7
+     },
+     "security_failure": true,
+     "functional_failure": true,
+     "low_confidence": true,
+     "deployment_allowed": false,
+     "attempts": {
+      "Coder": 1,
+      "Planner": 1,
+      "Security": 3,
+      "Tester": 4
      },
      "unavailable": [],
      "security_agent_active": true
@@ -102654,557 +103204,7 @@
   ],
   "audit_completeness": 1.0,
   "decision_latency_ms": 0.1484,
-  "execution_ms": 0.5003,
-  "governance_violations": 0,
-  "calibration_errors": [
-   0.373587,
-   -0.079126,
-   -0.182474,
-   -0.128939
-  ],
-  "events": [
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Planner",
-    "step": 0,
-    "payload": {
-     "planned": 5
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Coder",
-    "step": 1,
-    "payload": {
-     "attempt": 0,
-     "defects": 7
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Tester",
-    "step": 2,
-    "payload": {
-     "confidence": 0.5089285714285714,
-     "functional": [
-      7,
-      8
-     ],
-     "security": [
-      1,
-      7
-     ],
-     "self_report": 0.8825157238185991,
-     "calibration_error": 0.3735871523900277
-    }
-   },
-   {
-    "type": "TEST_FAILED",
-    "source": "Tester",
-    "step": 2,
-    "payload": {
-     "failures": [
-      "F6"
-     ]
-    }
-   },
-   {
-    "type": "SECURITY_FAILURE",
-    "source": "Tester",
-    "step": 2,
-    "payload": {
-     "failures": [
-      "S1",
-      "S2",
-      "S3",
-      "S4",
-      "S6",
-      "S7"
-     ]
-    }
-   },
-   {
-    "type": "LOW_CONFIDENCE",
-    "source": "Tester",
-    "step": 2,
-    "payload": {
-     "confidence": 0.5089285714285714
-    }
-   },
-   {
-    "type": "GRAPH_MUTATED",
-    "source": "kernel",
-    "step": 3,
-    "payload": {
-     "diff": "+Security, +Security->Tester, +Tester->Security"
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Security",
-    "step": 3,
-    "payload": {
-     "cleared": [
-      "alg_none_accepted",
-      "no_authz_on_me",
-      "plaintext_password",
-      "sqli_login",
-      "user_enumeration",
-      "weak_password_accepted"
-     ]
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Tester",
-    "step": 4,
-    "payload": {
-     "confidence": 0.9375,
-     "functional": [
-      7,
-      8
-     ],
-     "security": [
-      7,
-      7
-     ],
-     "self_report": 0.8583739617626006,
-     "calibration_error": -0.07912603823739939
-    }
-   },
-   {
-    "type": "TEST_FAILED",
-    "source": "Tester",
-    "step": 4,
-    "payload": {
-     "failures": [
-      "F6"
-     ]
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Security",
-    "step": 5,
-    "payload": {
-     "cleared": []
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Tester",
-    "step": 6,
-    "payload": {
-     "confidence": 0.9375,
-     "functional": [
-      7,
-      8
-     ],
-     "security": [
-      7,
-      7
-     ],
-     "self_report": 0.7550258258643536,
-     "calibration_error": -0.18247417413564637
-    }
-   },
-   {
-    "type": "TEST_FAILED",
-    "source": "Tester",
-    "step": 6,
-    "payload": {
-     "failures": [
-      "F6"
-     ]
-    }
-   },
-   {
-    "type": "GRAPH_MUTATED",
-    "source": "kernel",
-    "step": 7,
-    "payload": {
-     "diff": "+Tester->Coder"
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Coder",
-    "step": 7,
-    "payload": {
-     "attempt": 1,
-     "defects": 0
-    }
-   },
-   {
-    "type": "AGENT_COMPLETED",
-    "source": "Tester",
-    "step": 8,
-    "payload": {
-     "confidence": 1.0,
-     "functional": [
-      8,
-      8
-     ],
-     "security": [
-      7,
-      7
-     ],
-     "self_report": 0.8710605256268907,
-     "calibration_error": -0.12893947437310926
-    }
-   },
-   {
-    "type": "ALL_SUITES_GREEN",
-    "source": "Tester",
-    "step": 8,
-    "payload": {}
-   }
-  ],
-  "extra": {},
-  "decisions_trace": [
-   {
-    "step": 3,
-    "confidence": 0.508929,
-    "p_success": {
-     "RETRY_CODER": 0.5,
-     "INVOKE_SECURITY": 0.5,
-     "REPLAN": 0.5
-    },
-    "scores": {
-     "RETRY_CODER": 0.210714,
-     "INVOKE_SECURITY": 0.35625,
-     "REPLAN": 0.104464
-    },
-    "rejected": {
-     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK",
-     "TERMINATE": "NO_TERMINATION_WHILE_RECOVERABLE"
-    },
-    "selected": "INVOKE_SECURITY"
-   },
-   {
-    "step": 5,
-    "confidence": 0.9375,
-    "p_success": {
-     "RETRY_CODER": 0.5,
-     "INVOKE_SECURITY": 0.666667,
-     "REPLAN": 0.5,
-     "TERMINATE": 0.5
-    },
-    "scores": {
-     "RETRY_CODER": 0.425,
-     "INVOKE_SECURITY": 0.5125,
-     "REPLAN": 0.31875,
-     "TERMINATE": -0.15
-    },
-    "rejected": {
-     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
-    },
-    "selected": "INVOKE_SECURITY"
-   },
-   {
-    "step": 7,
-    "confidence": 0.9375,
-    "p_success": {
-     "RETRY_CODER": 0.5,
-     "INVOKE_SECURITY": 0.5,
-     "REPLAN": 0.5,
-     "TERMINATE": 0.5
-    },
-    "scores": {
-     "RETRY_CODER": 0.425,
-     "INVOKE_SECURITY": 0.35625,
-     "REPLAN": 0.31875,
-     "TERMINATE": -0.15
-    },
-    "rejected": {
-     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
-    },
-    "selected": "RETRY_CODER"
-   }
-  ],
-  "decision_violations": []
- },
- {
-  "arm": "A2",
-  "env": "nominal",
-  "seed": 5,
-  "outcome": "success",
-  "success": true,
-  "steps": 11,
-  "invocations": {
-   "Coder": 2,
-   "Planner": 1,
-   "Security": 3,
-   "Tester": 5
-  },
-  "graph_history": [
-   "Planner -> Coder -> Tester -> Reviewer",
-   "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-   "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Coder'), ('Tester', 'Reviewer'), ('Tester', 'Security')]"
-  ],
-  "adaptations": [
-   {
-    "step": 3,
-    "trigger": "SECURITY_FAILURE",
-    "confidence": 0.517857,
-    "candidates": [
-     "ACCEPT",
-     "RETRY_CODER",
-     "INVOKE_SECURITY",
-     "REPLAN",
-     "TERMINATE"
-    ],
-    "rejected": {
-     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK",
-     "TERMINATE": "NO_TERMINATION_WHILE_RECOVERABLE"
-    },
-    "scores": {
-     "RETRY_CODER": 0.246429,
-     "INVOKE_SECURITY": 0.325,
-     "REPLAN": 0.108929
-    },
-    "selected": "INVOKE_SECURITY",
-    "graph_before": "Planner -> Coder -> Tester -> Reviewer",
-    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-    "graph_diff": {
-     "nodes_added": [
-      "Security"
-     ],
-     "nodes_removed": [],
-     "edges_added": [
-      [
-       "Security",
-       "Tester"
-      ],
-      [
-       "Tester",
-       "Security"
-      ]
-     ],
-     "edges_removed": []
-    },
-    "state_after": {
-     "step": 2,
-     "current_agent": "Tester",
-     "task_status": "verification_failed",
-     "confidence": 0.517857,
-     "functional_tests": {
-      "passed": 6,
-      "total": 8
-     },
-     "security_tests": {
-      "passed": 2,
-      "total": 7
-     },
-     "security_failure": true,
-     "functional_failure": true,
-     "low_confidence": true,
-     "deployment_allowed": false,
-     "attempts": {
-      "Coder": 1,
-      "Planner": 1,
-      "Tester": 1
-     },
-     "unavailable": [],
-     "security_agent_active": false
-    }
-   },
-   {
-    "step": 5,
-    "trigger": "SECURITY_FAILURE",
-    "confidence": 0.803571,
-    "candidates": [
-     "ACCEPT",
-     "RETRY_CODER",
-     "INVOKE_SECURITY",
-     "REPLAN",
-     "TERMINATE"
-    ],
-    "rejected": {
-     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
-    },
-    "scores": {
-     "RETRY_CODER": 0.389286,
-     "INVOKE_SECURITY": 0.470833,
-     "REPLAN": 0.251786,
-     "TERMINATE": -0.15
-    },
-    "selected": "INVOKE_SECURITY",
-    "graph_before": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-    "graph_diff": {
-     "nodes_added": [],
-     "nodes_removed": [],
-     "edges_added": [],
-     "edges_removed": []
-    },
-    "state_after": {
-     "step": 4,
-     "current_agent": "Tester",
-     "task_status": "verification_failed",
-     "confidence": 0.803571,
-     "functional_tests": {
-      "passed": 6,
-      "total": 8
-     },
-     "security_tests": {
-      "passed": 6,
-      "total": 7
-     },
-     "security_failure": true,
-     "functional_failure": true,
-     "low_confidence": true,
-     "deployment_allowed": false,
-     "attempts": {
-      "Coder": 1,
-      "Planner": 1,
-      "Security": 1,
-      "Tester": 2
-     },
-     "unavailable": [],
-     "security_agent_active": true
-    }
-   },
-   {
-    "step": 7,
-    "trigger": "SECURITY_FAILURE",
-    "confidence": 0.875,
-    "candidates": [
-     "ACCEPT",
-     "RETRY_CODER",
-     "INVOKE_SECURITY",
-     "REPLAN",
-     "TERMINATE"
-    ],
-    "rejected": {
-     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
-    },
-    "scores": {
-     "RETRY_CODER": 0.425,
-     "INVOKE_SECURITY": 0.54375,
-     "REPLAN": 0.2875,
-     "TERMINATE": -0.15
-    },
-    "selected": "INVOKE_SECURITY",
-    "graph_before": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-    "graph_diff": {
-     "nodes_added": [],
-     "nodes_removed": [],
-     "edges_added": [],
-     "edges_removed": []
-    },
-    "state_after": {
-     "step": 6,
-     "current_agent": "Tester",
-     "task_status": "verification_failed",
-     "confidence": 0.875,
-     "functional_tests": {
-      "passed": 6,
-      "total": 8
-     },
-     "security_tests": {
-      "passed": 7,
-      "total": 7
-     },
-     "security_failure": true,
-     "functional_failure": true,
-     "low_confidence": true,
-     "deployment_allowed": false,
-     "attempts": {
-      "Coder": 1,
-      "Planner": 1,
-      "Security": 2,
-      "Tester": 3
-     },
-     "unavailable": [],
-     "security_agent_active": true
-    }
-   },
-   {
-    "step": 9,
-    "trigger": "SECURITY_FAILURE",
-    "confidence": 0.875,
-    "candidates": [
-     "ACCEPT",
-     "RETRY_CODER",
-     "INVOKE_SECURITY",
-     "REPLAN",
-     "TERMINATE"
-    ],
-    "rejected": {
-     "ACCEPT": "SECURITY_DEPLOYMENT_BLOCK"
-    },
-    "scores": {
-     "RETRY_CODER": 0.425,
-     "INVOKE_SECURITY": 0.4125,
-     "REPLAN": 0.2875,
-     "TERMINATE": -0.15
-    },
-    "selected": "RETRY_CODER",
-    "graph_before": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-    "graph_after": "V=['Coder', 'Planner', 'Reviewer', 'Security', 'Tester'] E=[('Coder', 'Tester'), ('Planner', 'Coder'), ('Security', 'Tester'), ('Tester', 'Coder'), ('Tester', 'Reviewer'), ('Tester', 'Security')]",
-    "graph_diff": {
-     "nodes_added": [],
-     "nodes_removed": [],
-     "edges_added": [
-      [
-       "Tester",
-       "Coder"
-      ]
-     ],
-     "edges_removed": []
-    },
-    "state_after": {
-     "step": 8,
-     "current_agent": "Tester",
-     "task_status": "verification_failed",
-     "confidence": 0.875,
-     "functional_tests": {
-      "passed": 6,
-      "total": 8
-     },
-     "security_tests": {
-      "passed": 7,
-      "total": 7
-     },
-     "security_failure": true,
-     "functional_failure": true,
-     "low_confidence": true,
-     "deployment_allowed": false,
-     "attempts": {
-      "Coder": 1,
-      "Planner": 1,
-      "Security": 3,
-      "Tester": 4
-     },
-     "unavailable": [],
-     "security_agent_active": true
-    }
-   }
-  ],
-  "final_artefact": {
-   "endpoints": [
-    "GET /me",
-    "POST /login",
-    "POST /logout",
-    "POST /refresh",
-    "POST /register"
-   ],
-   "defects": []
-  },
-  "final_confidence": 1.0,
-  "functional": [
-   8,
-   8
-  ],
-  "security": [
-   7,
-   7
-  ],
-  "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1959,
-  "execution_ms": 0.6181,
+  "execution_ms": 0.4784,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -103997,8 +103997,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3372,
-  "execution_ms": 1.1297,
+  "decision_latency_ms": 0.3088,
+  "execution_ms": 0.9493,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -105028,8 +105028,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2535,
-  "execution_ms": 0.8239,
+  "decision_latency_ms": 0.2007,
+  "execution_ms": 0.6494,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184,
@@ -106140,8 +106140,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.467,
-  "execution_ms": 1.3832,
+  "decision_latency_ms": 0.3588,
+  "execution_ms": 1.0622,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -107152,8 +107152,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1678,
-  "execution_ms": 0.5435,
+  "decision_latency_ms": 0.1116,
+  "execution_ms": 0.3753,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -107877,8 +107877,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.413,
-  "execution_ms": 1.3134,
+  "decision_latency_ms": 0.2515,
+  "execution_ms": 0.8089,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -109038,8 +109038,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3985,
-  "execution_ms": 1.2378,
+  "decision_latency_ms": 0.3375,
+  "execution_ms": 1.0279,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -109956,8 +109956,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2201,
-  "execution_ms": 0.6533,
+  "decision_latency_ms": 0.127,
+  "execution_ms": 0.4383,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -110685,8 +110685,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.324,
-  "execution_ms": 0.9774,
+  "decision_latency_ms": 0.2579,
+  "execution_ms": 0.7805,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -111311,8 +111311,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0524,
-  "execution_ms": 0.254,
+  "decision_latency_ms": 0.0475,
+  "execution_ms": 0.2259,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -112018,8 +112018,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4157,
-  "execution_ms": 1.2805,
+  "decision_latency_ms": 0.3382,
+  "execution_ms": 1.0276,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -113112,8 +113112,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2048,
-  "execution_ms": 0.6554,
+  "decision_latency_ms": 0.1509,
+  "execution_ms": 0.4933,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -113914,8 +113914,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3798,
-  "execution_ms": 1.1982,
+  "decision_latency_ms": 0.2442,
+  "execution_ms": 0.7836,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -115133,8 +115133,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4044,
-  "execution_ms": 1.2774,
+  "decision_latency_ms": 0.3172,
+  "execution_ms": 0.9894,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -116341,8 +116341,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.5622,
-  "execution_ms": 1.2742,
+  "decision_latency_ms": 0.2218,
+  "execution_ms": 0.7208,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -117164,8 +117164,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1585,
-  "execution_ms": 0.5268,
+  "decision_latency_ms": 0.1114,
+  "execution_ms": 0.3801,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -117656,8 +117656,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1537,
-  "execution_ms": 0.5113,
+  "decision_latency_ms": 0.1072,
+  "execution_ms": 0.3727,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -118231,8 +118231,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2122,
-  "execution_ms": 0.6993,
+  "decision_latency_ms": 0.1398,
+  "execution_ms": 0.4655,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -118821,8 +118821,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1692,
-  "execution_ms": 0.5589,
+  "decision_latency_ms": 0.1073,
+  "execution_ms": 0.3744,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901,
@@ -119568,8 +119568,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.355,
-  "execution_ms": 1.0515,
+  "decision_latency_ms": 0.2499,
+  "execution_ms": 0.7514,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -120381,8 +120381,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1989,
-  "execution_ms": 0.6908,
+  "decision_latency_ms": 0.2017,
+  "execution_ms": 0.675,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -121314,8 +121314,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3882,
-  "execution_ms": 1.2334,
+  "decision_latency_ms": 0.3027,
+  "execution_ms": 0.9595,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338,
@@ -122613,8 +122613,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.5058,
-  "execution_ms": 1.3958,
+  "decision_latency_ms": 0.5082,
+  "execution_ms": 1.3308,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -123576,8 +123576,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1053,
-  "execution_ms": 0.3951,
+  "decision_latency_ms": 0.1074,
+  "execution_ms": 0.4007,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -124359,8 +124359,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.5791,
-  "execution_ms": 1.5352,
+  "decision_latency_ms": 0.3943,
+  "execution_ms": 1.1359,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -125617,8 +125617,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3665,
-  "execution_ms": 1.1467,
+  "decision_latency_ms": 0.265,
+  "execution_ms": 0.8415,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -126491,8 +126491,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1564,
-  "execution_ms": 0.5854,
+  "decision_latency_ms": 0.1294,
+  "execution_ms": 0.481,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154,
@@ -126946,8 +126946,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1194,
-  "execution_ms": 0.5088,
+  "decision_latency_ms": 0.0828,
+  "execution_ms": 0.3193,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432,
@@ -127267,8 +127267,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0582,
-  "execution_ms": 0.277,
+  "decision_latency_ms": 0.0447,
+  "execution_ms": 0.2089,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -127804,8 +127804,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3591,
-  "execution_ms": 1.1335,
+  "decision_latency_ms": 0.2144,
+  "execution_ms": 0.7322,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587,
@@ -128563,8 +128563,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2031,
-  "execution_ms": 0.707,
+  "decision_latency_ms": 0.1781,
+  "execution_ms": 0.6262,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194,
@@ -129389,8 +129389,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.3605,
-  "execution_ms": 1.2324,
+  "decision_latency_ms": 0.268,
+  "execution_ms": 0.9472,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521,
@@ -130509,8 +130509,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2952,
-  "execution_ms": 1.0612,
+  "decision_latency_ms": 0.2204,
+  "execution_ms": 0.7934,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184,
@@ -131720,8 +131720,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4987,
-  "execution_ms": 1.6249,
+  "decision_latency_ms": 0.3543,
+  "execution_ms": 1.154,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427,
@@ -132685,8 +132685,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1075,
-  "execution_ms": 0.3925,
+  "decision_latency_ms": 0.0777,
+  "execution_ms": 0.301,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932,
@@ -133450,8 +133450,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4179,
-  "execution_ms": 1.4255,
+  "decision_latency_ms": 0.3898,
+  "execution_ms": 1.2801,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007,
@@ -134804,8 +134804,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4417,
-  "execution_ms": 1.4927,
+  "decision_latency_ms": 0.2939,
+  "execution_ms": 1.0213,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137,
@@ -135796,8 +135796,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2195,
-  "execution_ms": 0.775,
+  "decision_latency_ms": 0.1418,
+  "execution_ms": 0.5362,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173,
@@ -136741,8 +136741,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4178,
-  "execution_ms": 1.3319,
+  "decision_latency_ms": 0.3125,
+  "execution_ms": 1.0035,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168,
@@ -137513,8 +137513,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0521,
-  "execution_ms": 0.2696,
+  "decision_latency_ms": 0.0405,
+  "execution_ms": 0.2028,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145,
@@ -137879,8 +137879,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1478,
-  "execution_ms": 0.5448,
+  "decision_latency_ms": 0.1404,
+  "execution_ms": 0.469,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133,
@@ -138591,8 +138591,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2722,
-  "execution_ms": 0.9236,
+  "decision_latency_ms": 0.2287,
+  "execution_ms": 0.7543,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863,
@@ -139242,8 +139242,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1064,
-  "execution_ms": 0.4094,
+  "decision_latency_ms": 0.0969,
+  "execution_ms": 0.3545,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014,
@@ -140154,8 +140154,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4838,
-  "execution_ms": 1.5752,
+  "decision_latency_ms": 0.4409,
+  "execution_ms": 1.3962,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119,
@@ -141334,8 +141334,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1723,
-  "execution_ms": 0.6174,
+  "decision_latency_ms": 0.1147,
+  "execution_ms": 0.4247,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836,
@@ -141945,8 +141945,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2146,
-  "execution_ms": 0.7329,
+  "decision_latency_ms": 0.1494,
+  "execution_ms": 0.5231,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251,
@@ -142520,8 +142520,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1538,
-  "execution_ms": 0.5821,
+  "decision_latency_ms": 0.1136,
+  "execution_ms": 0.447,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912,
@@ -143121,8 +143121,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2138,
-  "execution_ms": 0.9942,
+  "decision_latency_ms": 0.1506,
+  "execution_ms": 0.5523,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702,
@@ -143624,8 +143624,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0638,
-  "execution_ms": 0.2814,
+  "decision_latency_ms": 0.049,
+  "execution_ms": 0.2318,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -144342,8 +144342,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.4878,
-  "execution_ms": 1.5569,
+  "decision_latency_ms": 0.3089,
+  "execution_ms": 1.0125,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674,
@@ -145217,8 +145217,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1013,
-  "execution_ms": 0.3973,
+  "decision_latency_ms": 0.0829,
+  "execution_ms": 0.307,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111,
@@ -145787,8 +145787,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.2393,
-  "execution_ms": 0.8843,
+  "decision_latency_ms": 0.1886,
+  "execution_ms": 0.6878,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338,
@@ -146528,8 +146528,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1346,
-  "execution_ms": 0.5271,
+  "decision_latency_ms": 0.1142,
+  "execution_ms": 0.4105,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588,
@@ -146991,8 +146991,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.1121,
-  "execution_ms": 0.4521,
+  "decision_latency_ms": 0.1022,
+  "execution_ms": 0.4267,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366,
@@ -147911,8 +147911,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.5065,
-  "execution_ms": 1.6126,
+  "decision_latency_ms": 0.4042,
+  "execution_ms": 1.272,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708,
@@ -149323,8 +149323,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.5251,
-  "execution_ms": 1.4217,
+  "decision_latency_ms": 0.2441,
+  "execution_ms": 0.8617,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967,
@@ -150038,8 +150038,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0305,
-  "execution_ms": 0.1696,
+  "decision_latency_ms": 0.025,
+  "execution_ms": 0.137,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154
@@ -150172,8 +150172,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.028,
-  "execution_ms": 0.1628,
+  "decision_latency_ms": 0.0205,
+  "execution_ms": 0.1197,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432
@@ -150306,8 +150306,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0433,
-  "execution_ms": 0.2398,
+  "decision_latency_ms": 0.0204,
+  "execution_ms": 0.1183,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -150442,8 +150442,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0332,
-  "execution_ms": 0.1945,
+  "decision_latency_ms": 0.0195,
+  "execution_ms": 0.1248,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587
@@ -150576,8 +150576,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0305,
-  "execution_ms": 0.1791,
+  "decision_latency_ms": 0.0206,
+  "execution_ms": 0.1226,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194
@@ -150710,8 +150710,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0296,
-  "execution_ms": 0.1755,
+  "decision_latency_ms": 0.0186,
+  "execution_ms": 0.1205,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521
@@ -150847,8 +150847,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.026,
-  "execution_ms": 0.1664,
+  "decision_latency_ms": 0.0221,
+  "execution_ms": 0.1292,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184
@@ -150983,8 +150983,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0233,
-  "execution_ms": 0.1538,
+  "decision_latency_ms": 0.0234,
+  "execution_ms": 0.145,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427
@@ -151120,8 +151120,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0387,
-  "execution_ms": 0.2202,
+  "decision_latency_ms": 0.0196,
+  "execution_ms": 0.1262,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932
@@ -151254,8 +151254,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0282,
-  "execution_ms": 0.1746,
+  "decision_latency_ms": 0.0189,
+  "execution_ms": 0.1214,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007
@@ -151387,8 +151387,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0306,
-  "execution_ms": 0.1824,
+  "decision_latency_ms": 0.0182,
+  "execution_ms": 0.1198,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137
@@ -151525,8 +151525,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0257,
-  "execution_ms": 0.1628,
+  "decision_latency_ms": 0.0177,
+  "execution_ms": 0.1162,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173
@@ -151660,8 +151660,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0339,
-  "execution_ms": 0.2022,
+  "decision_latency_ms": 0.017,
+  "execution_ms": 0.1143,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168
@@ -151794,8 +151794,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0275,
-  "execution_ms": 0.1741,
+  "decision_latency_ms": 0.0168,
+  "execution_ms": 0.1148,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145
@@ -151932,8 +151932,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0248,
-  "execution_ms": 0.1626,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1143,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133
@@ -152072,8 +152072,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0279,
-  "execution_ms": 0.169,
+  "decision_latency_ms": 0.0171,
+  "execution_ms": 0.1134,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863
@@ -152207,8 +152207,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.024,
-  "execution_ms": 0.1548,
+  "decision_latency_ms": 0.022,
+  "execution_ms": 0.1386,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014
@@ -152345,8 +152345,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0239,
-  "execution_ms": 0.1538,
+  "decision_latency_ms": 0.0181,
+  "execution_ms": 0.1195,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119
@@ -152483,8 +152483,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0237,
-  "execution_ms": 0.1535,
+  "decision_latency_ms": 0.0175,
+  "execution_ms": 0.1153,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836
@@ -152622,8 +152622,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.023,
-  "execution_ms": 0.1526,
+  "decision_latency_ms": 0.0188,
+  "execution_ms": 0.1214,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251
@@ -152758,8 +152758,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.023,
-  "execution_ms": 0.1526,
+  "decision_latency_ms": 0.0203,
+  "execution_ms": 0.134,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912
@@ -152900,8 +152900,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0316,
-  "execution_ms": 0.208,
+  "decision_latency_ms": 0.0202,
+  "execution_ms": 0.1303,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702
@@ -153041,8 +153041,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0259,
-  "execution_ms": 0.1658,
+  "decision_latency_ms": 0.0202,
+  "execution_ms": 0.1303,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -153175,8 +153175,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0248,
-  "execution_ms": 0.1589,
+  "decision_latency_ms": 0.0202,
+  "execution_ms": 0.131,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674
@@ -153308,8 +153308,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0238,
-  "execution_ms": 0.1538,
+  "decision_latency_ms": 0.0233,
+  "execution_ms": 0.1442,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111
@@ -153447,8 +153447,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0335,
-  "execution_ms": 0.1987,
+  "decision_latency_ms": 0.02,
+  "execution_ms": 0.13,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338
@@ -153586,8 +153586,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0263,
-  "execution_ms": 0.1658,
+  "decision_latency_ms": 0.0228,
+  "execution_ms": 0.1389,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588
@@ -153724,8 +153724,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0252,
-  "execution_ms": 0.1639,
+  "decision_latency_ms": 0.0184,
+  "execution_ms": 0.1194,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366
@@ -153857,8 +153857,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0231,
-  "execution_ms": 0.153,
+  "decision_latency_ms": 0.0176,
+  "execution_ms": 0.1209,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708
@@ -153991,8 +153991,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0269,
-  "execution_ms": 0.1669,
+  "decision_latency_ms": 0.0171,
+  "execution_ms": 0.1146,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967
@@ -154129,8 +154129,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0253,
-  "execution_ms": 0.1818,
+  "decision_latency_ms": 0.0176,
+  "execution_ms": 0.1268,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154
@@ -154263,8 +154263,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0239,
-  "execution_ms": 0.1716,
+  "decision_latency_ms": 0.0173,
+  "execution_ms": 0.127,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432
@@ -154397,8 +154397,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0257,
-  "execution_ms": 0.2059,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1475,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -154545,8 +154545,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0259,
-  "execution_ms": 0.1776,
+  "decision_latency_ms": 0.0173,
+  "execution_ms": 0.126,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587
@@ -154679,8 +154679,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0288,
-  "execution_ms": 0.1903,
+  "decision_latency_ms": 0.0171,
+  "execution_ms": 0.1247,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194
@@ -154813,8 +154813,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0258,
-  "execution_ms": 0.1686,
+  "decision_latency_ms": 0.0175,
+  "execution_ms": 0.1281,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521
@@ -154950,8 +154950,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0232,
-  "execution_ms": 0.1956,
+  "decision_latency_ms": 0.0178,
+  "execution_ms": 0.1511,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184
@@ -155098,8 +155098,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.025,
-  "execution_ms": 0.1826,
+  "decision_latency_ms": 0.0177,
+  "execution_ms": 0.1386,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427
@@ -155241,8 +155241,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0229,
-  "execution_ms": 0.164,
+  "decision_latency_ms": 0.0179,
+  "execution_ms": 0.1292,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932
@@ -155375,8 +155375,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0299,
-  "execution_ms": 0.2233,
+  "decision_latency_ms": 0.0175,
+  "execution_ms": 0.1259,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007
@@ -155508,8 +155508,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0241,
-  "execution_ms": 0.1923,
+  "decision_latency_ms": 0.036,
+  "execution_ms": 0.2223,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137
@@ -155652,8 +155652,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.026,
-  "execution_ms": 0.1883,
+  "decision_latency_ms": 0.0265,
+  "execution_ms": 0.181,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173
@@ -155793,8 +155793,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.025,
-  "execution_ms": 0.1777,
+  "decision_latency_ms": 0.028,
+  "execution_ms": 0.1685,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168
@@ -155927,8 +155927,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0238,
-  "execution_ms": 0.1727,
+  "decision_latency_ms": 0.0187,
+  "execution_ms": 0.1321,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145
@@ -156065,8 +156065,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0282,
-  "execution_ms": 0.1862,
+  "decision_latency_ms": 0.0179,
+  "execution_ms": 0.126,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133
@@ -156205,8 +156205,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0225,
-  "execution_ms": 0.1646,
+  "decision_latency_ms": 0.0178,
+  "execution_ms": 0.1257,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863
@@ -156340,8 +156340,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0299,
-  "execution_ms": 0.2014,
+  "decision_latency_ms": 0.0176,
+  "execution_ms": 0.1248,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014
@@ -156478,8 +156478,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0266,
-  "execution_ms": 0.1801,
+  "decision_latency_ms": 0.0305,
+  "execution_ms": 0.1798,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119
@@ -156616,8 +156616,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0303,
-  "execution_ms": 0.2009,
+  "decision_latency_ms": 0.0422,
+  "execution_ms": 0.1948,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836
@@ -156755,8 +156755,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0292,
-  "execution_ms": 0.1895,
+  "decision_latency_ms": 0.0195,
+  "execution_ms": 0.1408,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251
@@ -156891,8 +156891,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0238,
-  "execution_ms": 0.1653,
+  "decision_latency_ms": 0.0202,
+  "execution_ms": 0.1363,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912
@@ -157033,8 +157033,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0229,
-  "execution_ms": 0.1644,
+  "decision_latency_ms": 0.0197,
+  "execution_ms": 0.1373,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702
@@ -157174,8 +157174,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0223,
-  "execution_ms": 0.1901,
+  "decision_latency_ms": 0.0187,
+  "execution_ms": 0.1548,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -157320,8 +157320,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0226,
-  "execution_ms": 0.1896,
+  "decision_latency_ms": 0.018,
+  "execution_ms": 0.1466,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674
@@ -157465,8 +157465,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0251,
-  "execution_ms": 0.1715,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1272,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111
@@ -157604,8 +157604,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0328,
-  "execution_ms": 0.2375,
+  "decision_latency_ms": 0.0175,
+  "execution_ms": 0.1461,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338
@@ -157755,8 +157755,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0303,
-  "execution_ms": 0.2088,
+  "decision_latency_ms": 0.02,
+  "execution_ms": 0.1283,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588
@@ -157893,8 +157893,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0387,
-  "execution_ms": 0.2395,
+  "decision_latency_ms": 0.0188,
+  "execution_ms": 0.1318,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366
@@ -158026,8 +158026,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0331,
-  "execution_ms": 0.229,
+  "decision_latency_ms": 0.0384,
+  "execution_ms": 0.1576,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708
@@ -158160,8 +158160,8 @@
    7
   ],
   "audit_completeness": 1.0,
-  "decision_latency_ms": 0.0292,
-  "execution_ms": 0.1965,
+  "decision_latency_ms": 0.0192,
+  "execution_ms": 0.133,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967
@@ -158341,8 +158341,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0334,
-  "execution_ms": 0.1614,
+  "decision_latency_ms": 0.0311,
+  "execution_ms": 0.1229,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154
@@ -158521,8 +158521,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0293,
-  "execution_ms": 0.1561,
+  "decision_latency_ms": 0.0217,
+  "execution_ms": 0.1093,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432
@@ -158701,8 +158701,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0307,
-  "execution_ms": 0.1512,
+  "decision_latency_ms": 0.0198,
+  "execution_ms": 0.1095,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -158883,8 +158883,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0313,
-  "execution_ms": 0.16,
+  "decision_latency_ms": 0.0197,
+  "execution_ms": 0.1094,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587
@@ -159063,8 +159063,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0354,
-  "execution_ms": 0.1864,
+  "decision_latency_ms": 0.0227,
+  "execution_ms": 0.1145,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194
@@ -159243,8 +159243,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0341,
-  "execution_ms": 0.1711,
+  "decision_latency_ms": 0.0279,
+  "execution_ms": 0.1362,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521
@@ -159426,8 +159426,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0308,
-  "execution_ms": 0.1536,
+  "decision_latency_ms": 0.024,
+  "execution_ms": 0.1177,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184
@@ -159608,8 +159608,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0324,
-  "execution_ms": 0.1728,
+  "decision_latency_ms": 0.0244,
+  "execution_ms": 0.1327,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427
@@ -159791,8 +159791,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0315,
-  "execution_ms": 0.1677,
+  "decision_latency_ms": 0.0233,
+  "execution_ms": 0.1181,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932
@@ -159971,8 +159971,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0613,
-  "execution_ms": 0.2284,
+  "decision_latency_ms": 0.0221,
+  "execution_ms": 0.1122,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007
@@ -160150,8 +160150,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0313,
-  "execution_ms": 0.1762,
+  "decision_latency_ms": 0.0211,
+  "execution_ms": 0.1094,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137
@@ -160334,8 +160334,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0298,
-  "execution_ms": 0.1568,
+  "decision_latency_ms": 0.0212,
+  "execution_ms": 0.108,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173
@@ -160515,8 +160515,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0256,
-  "execution_ms": 0.1434,
+  "decision_latency_ms": 0.0206,
+  "execution_ms": 0.1071,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168
@@ -160695,8 +160695,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0301,
-  "execution_ms": 0.1505,
+  "decision_latency_ms": 0.0204,
+  "execution_ms": 0.107,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145
@@ -160879,8 +160879,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0251,
-  "execution_ms": 0.1439,
+  "decision_latency_ms": 0.0238,
+  "execution_ms": 0.1182,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133
@@ -161065,8 +161065,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0246,
-  "execution_ms": 0.139,
+  "decision_latency_ms": 0.0274,
+  "execution_ms": 0.1324,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863
@@ -161246,8 +161246,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0248,
-  "execution_ms": 0.1396,
+  "decision_latency_ms": 0.019,
+  "execution_ms": 0.106,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014
@@ -161430,8 +161430,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.023,
-  "execution_ms": 0.1362,
+  "decision_latency_ms": 0.0182,
+  "execution_ms": 0.1077,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119
@@ -161614,8 +161614,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.024,
-  "execution_ms": 0.1374,
+  "decision_latency_ms": 0.0178,
+  "execution_ms": 0.113,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836
@@ -161799,8 +161799,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0401,
-  "execution_ms": 0.217,
+  "decision_latency_ms": 0.018,
+  "execution_ms": 0.1034,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251
@@ -161981,8 +161981,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0285,
-  "execution_ms": 0.1541,
+  "decision_latency_ms": 0.019,
+  "execution_ms": 0.1033,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912
@@ -162169,8 +162169,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0327,
-  "execution_ms": 0.1556,
+  "decision_latency_ms": 0.0178,
+  "execution_ms": 0.1028,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702
@@ -162356,8 +162356,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.034,
-  "execution_ms": 0.1757,
+  "decision_latency_ms": 0.0176,
+  "execution_ms": 0.102,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -162536,8 +162536,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0298,
-  "execution_ms": 0.1609,
+  "decision_latency_ms": 0.0286,
+  "execution_ms": 0.166,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674
@@ -162715,8 +162715,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0257,
-  "execution_ms": 0.143,
+  "decision_latency_ms": 0.022,
+  "execution_ms": 0.117,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111
@@ -162900,8 +162900,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0305,
-  "execution_ms": 0.1647,
+  "decision_latency_ms": 0.0243,
+  "execution_ms": 0.1193,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338
@@ -163085,8 +163085,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0293,
-  "execution_ms": 0.1578,
+  "decision_latency_ms": 0.0243,
+  "execution_ms": 0.1519,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588
@@ -163269,8 +163269,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.03,
-  "execution_ms": 0.1805,
+  "decision_latency_ms": 0.0299,
+  "execution_ms": 0.1356,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366
@@ -163448,8 +163448,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0301,
-  "execution_ms": 0.1637,
+  "decision_latency_ms": 0.0236,
+  "execution_ms": 0.1166,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708
@@ -163628,8 +163628,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0263,
-  "execution_ms": 0.1462,
+  "decision_latency_ms": 0.019,
+  "execution_ms": 0.1098,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967
@@ -163812,8 +163812,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0253,
-  "execution_ms": 0.1547,
+  "decision_latency_ms": 0.0174,
+  "execution_ms": 0.1122,
   "governance_violations": 0,
   "calibration_errors": [
    0.441154
@@ -163992,8 +163992,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.038,
-  "execution_ms": 0.2224,
+  "decision_latency_ms": 0.018,
+  "execution_ms": 0.1098,
   "governance_violations": 0,
   "calibration_errors": [
    0.471432
@@ -164174,8 +164174,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0256,
-  "execution_ms": 0.1729,
+  "decision_latency_ms": 0.0183,
+  "execution_ms": 0.1239,
   "governance_violations": 0,
   "calibration_errors": [
    0.420639
@@ -164362,8 +164362,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0238,
-  "execution_ms": 0.1476,
+  "decision_latency_ms": 0.0179,
+  "execution_ms": 0.1133,
   "governance_violations": 0,
   "calibration_errors": [
    0.373587
@@ -164542,8 +164542,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0278,
-  "execution_ms": 0.1519,
+  "decision_latency_ms": 0.017,
+  "execution_ms": 0.1091,
   "governance_violations": 0,
   "calibration_errors": [
    0.213194
@@ -164722,8 +164722,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0231,
-  "execution_ms": 0.1471,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1097,
   "governance_violations": 0,
   "calibration_errors": [
    0.387521
@@ -164907,8 +164907,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.048,
-  "execution_ms": 0.267,
+  "decision_latency_ms": 0.0177,
+  "execution_ms": 0.121,
   "governance_violations": 0,
   "calibration_errors": [
    0.219184
@@ -165095,8 +165095,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0365,
-  "execution_ms": 0.1942,
+  "decision_latency_ms": 0.0278,
+  "execution_ms": 0.1675,
   "governance_violations": 0,
   "calibration_errors": [
    0.392427
@@ -165278,8 +165278,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0268,
-  "execution_ms": 0.1582,
+  "decision_latency_ms": 0.0245,
+  "execution_ms": 0.1463,
   "governance_violations": 0,
   "calibration_errors": [
    0.421932
@@ -165458,8 +165458,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0254,
-  "execution_ms": 0.1531,
+  "decision_latency_ms": 0.0216,
+  "execution_ms": 0.1286,
   "governance_violations": 0,
   "calibration_errors": [
    0.533007
@@ -165637,8 +165637,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0248,
-  "execution_ms": 0.1537,
+  "decision_latency_ms": 0.0185,
+  "execution_ms": 0.1121,
   "governance_violations": 0,
   "calibration_errors": [
    0.546137
@@ -165821,8 +165821,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0226,
-  "execution_ms": 0.1449,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1098,
   "governance_violations": 0,
   "calibration_errors": [
    0.510173
@@ -166002,8 +166002,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0274,
-  "execution_ms": 0.1555,
+  "decision_latency_ms": 0.0179,
+  "execution_ms": 0.113,
   "governance_violations": 0,
   "calibration_errors": [
    0.369168
@@ -166182,8 +166182,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0259,
-  "execution_ms": 0.1515,
+  "decision_latency_ms": 0.0177,
+  "execution_ms": 0.1105,
   "governance_violations": 0,
   "calibration_errors": [
    0.40145
@@ -166366,8 +166366,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0245,
-  "execution_ms": 0.1489,
+  "decision_latency_ms": 0.0171,
+  "execution_ms": 0.1096,
   "governance_violations": 0,
   "calibration_errors": [
    0.748133
@@ -166552,8 +166552,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0239,
-  "execution_ms": 0.147,
+  "decision_latency_ms": 0.0313,
+  "execution_ms": 0.1754,
   "governance_violations": 0,
   "calibration_errors": [
    0.461863
@@ -166733,8 +166733,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0236,
-  "execution_ms": 0.1476,
+  "decision_latency_ms": 0.0264,
+  "execution_ms": 0.1573,
   "governance_violations": 0,
   "calibration_errors": [
    0.458014
@@ -166917,8 +166917,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0235,
-  "execution_ms": 0.1468,
+  "decision_latency_ms": 0.0206,
+  "execution_ms": 0.1242,
   "governance_violations": 0,
   "calibration_errors": [
    0.50119
@@ -167101,8 +167101,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0243,
-  "execution_ms": 0.147,
+  "decision_latency_ms": 0.0193,
+  "execution_ms": 0.1165,
   "governance_violations": 0,
   "calibration_errors": [
    0.657836
@@ -167286,8 +167286,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0353,
-  "execution_ms": 0.2089,
+  "decision_latency_ms": 0.0185,
+  "execution_ms": 0.1142,
   "governance_violations": 0,
   "calibration_errors": [
    0.317251
@@ -167468,8 +167468,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0291,
-  "execution_ms": 0.169,
+  "decision_latency_ms": 0.0185,
+  "execution_ms": 0.1141,
   "governance_violations": 0,
   "calibration_errors": [
    0.478912
@@ -167656,8 +167656,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0272,
-  "execution_ms": 0.1637,
+  "decision_latency_ms": 0.0186,
+  "execution_ms": 0.1143,
   "governance_violations": 0,
   "calibration_errors": [
    0.747702
@@ -167845,8 +167845,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0277,
-  "execution_ms": 0.1805,
+  "decision_latency_ms": 0.0175,
+  "execution_ms": 0.1227,
   "governance_violations": 0,
   "calibration_errors": [
    0.345901
@@ -168033,8 +168033,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0238,
-  "execution_ms": 0.1663,
+  "decision_latency_ms": 0.019,
+  "execution_ms": 0.1222,
   "governance_violations": 0,
   "calibration_errors": [
    0.352674
@@ -168218,8 +168218,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0356,
-  "execution_ms": 0.2096,
+  "decision_latency_ms": 0.0199,
+  "execution_ms": 0.1116,
   "governance_violations": 0,
   "calibration_errors": [
    0.558111
@@ -168405,8 +168405,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0248,
-  "execution_ms": 0.1731,
+  "decision_latency_ms": 0.0173,
+  "execution_ms": 0.1206,
   "governance_violations": 0,
   "calibration_errors": [
    0.669338
@@ -168596,8 +168596,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0252,
-  "execution_ms": 0.1505,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1094,
   "governance_violations": 0,
   "calibration_errors": [
    0.387588
@@ -168780,8 +168780,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0274,
-  "execution_ms": 0.1615,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1086,
   "governance_violations": 0,
   "calibration_errors": [
    0.44366
@@ -168959,8 +168959,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.0277,
-  "execution_ms": 0.1542,
+  "decision_latency_ms": 0.0172,
+  "execution_ms": 0.1108,
   "governance_violations": 0,
   "calibration_errors": [
    0.300708
@@ -169139,8 +169139,8 @@
    7
   ],
   "audit_completeness": 0.0,
-  "decision_latency_ms": 0.024,
-  "execution_ms": 0.1471,
+  "decision_latency_ms": 0.0183,
+  "execution_ms": 0.1125,
   "governance_violations": 0,
   "calibration_errors": [
    0.273967

@@ -28,6 +28,22 @@ from .runner import RESULTS_DIR, Experiment
 LAMBDA_GRID = (0.0, 0.1, 0.2, 0.3, 0.4, 0.5)
 COMPETENCE_GRID = ((0.05, 0.95), (0.15, 0.90), (0.30, 0.75), (0.45, 0.60))
 
+# The utility-misspecification family (E5).
+#
+# Each entry is a scoring configuration a competent engineer might plausibly
+# author without calibration data: a risk weight anywhere from "ignore risk" to
+# "risk dominates", a cost weight spanning cheap-to-expensive adaptation, and a
+# release-risk constant that is either severe or merely serious. The family is
+# declared here, in full, and every member is reported — the headline is the
+# *worst* case per arm, not a selected member.
+#
+# The point of the sweep is that a soft penalty is a claim about the utility
+# function you wrote, whereas a hard constraint is a claim about the ones you
+# did not. Only a family can distinguish those.
+MISSPEC_LAMBDA_RISK = (0.0, 0.1, 0.2, 0.3, 0.5)
+MISSPEC_LAMBDA_COST = (0.05, 0.15, 0.30)
+MISSPEC_RELEASE_RISK = (0.6, 1.0)
+
 
 def lambda_sweep(n: int) -> list[dict]:
     """Mitigation #2: is the conclusion an artefact of one parameter setting?
@@ -78,6 +94,45 @@ def competence_sweep(n: int) -> list[dict]:
     return out
 
 
+def misspecification_sweep(n: int) -> list[dict]:
+    """E5 — robustness of compliance to utility misspecification.
+
+    The governed and ungoverned arms are indistinguishable at the declared
+    scoring configuration, and this is the experiment that says why that is the
+    finding rather than a non-result. A safety mechanism is not evaluated on its
+    mean: it is evaluated on whether it holds across the configurations you did
+    not anticipate.
+
+    Both arms see identical seeds and identical scoring within each
+    configuration, so the pairing is exact and the comparison is made with a
+    signed-rank test rather than an independent-samples one.
+    """
+    out = []
+    for lr in MISSPEC_LAMBDA_RISK:
+        for lc in MISSPEC_LAMBDA_COST:
+            for rr in MISSPEC_RELEASE_RISK:
+                cfg = ScoringConfig(
+                    lambda_risk=lr, lambda_cost=lc, risk_accept_security_red=rr
+                )
+                exp = Experiment(n=n, scoring=cfg)
+                row = {
+                    "lambda_risk": lr,
+                    "lambda_cost": lc,
+                    "release_risk": rr,
+                    "scoring_hash": cfg.hash(),
+                }
+                for arm in ("A1", "A2"):
+                    runs = [
+                        M.compute(exp.run_one(arm, "nominal", s)[0])
+                        for s in range(1, n + 1)
+                    ]
+                    row[f"{arm}_compliance"] = M.compliance_rate(runs)
+                    row[f"{arm}_success"] = M.rate(runs, "success")
+                    row[f"{arm}_violations"] = sum(r.violations for r in runs)
+                out.append(row)
+    return out
+
+
 def main(n: int = 30, out_dir: Path = RESULTS_DIR) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -100,7 +155,15 @@ def main(n: int = 30, out_dir: Path = RESULTS_DIR) -> int:
     (out_dir / "table3.tex").write_text(emit.table3(rows))
     (out_dir / "table4.tex").write_text(emit.table4(rows))
 
-    stats_tex, comps = emit.significance(rows)
+    print("misspecification sweep (E5) ...")
+    misspec = misspecification_sweep(n)
+    repro["misspecification_sweep"] = misspec
+    misspec_tex, misspec_comp = emit.misspecification(misspec)
+    (out_dir / "misspecification.tex").write_text(misspec_tex)
+
+    # The paired misspecification test joins the same Holm family, so the
+    # correction covers every hypothesis tested rather than a convenient subset.
+    stats_tex, comps = emit.significance(rows, extra=[misspec_comp])
     (out_dir / "stats.tex").write_text(stats_tex)
 
     e1_tex, e1_run = emit.e1_trace(records)
@@ -111,7 +174,12 @@ def main(n: int = 30, out_dir: Path = RESULTS_DIR) -> int:
     print("supplementary power check (n=100) ...")
     rows_100, _, _ = Experiment(n=100).run_all()
     (out_dir / "power.tex").write_text(emit.power_note(rows, rows_100))
-    emit.figures(rows, sweep, out_dir)
+    emit.figures(rows, sweep, out_dir, misspec=misspec)
+
+    # Rewritten last: the sweeps above add to `repro` after the first write, and
+    # a reproducibility record missing an experiment it reports would be worse
+    # than none at all.
+    (out_dir / "reproducibility.json").write_text(json.dumps(repro, indent=2))
 
     print("\n--- significance ---")
     for c in comps:

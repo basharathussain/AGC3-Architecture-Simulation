@@ -17,7 +17,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from scipy.stats import mannwhitneyu
+from scipy.stats import mannwhitneyu, wilcoxon
 
 
 @dataclass(frozen=True)
@@ -76,6 +76,38 @@ def compare(label: str, a: list[float], b: list[float]) -> Comparison:
         median_a=_median(a),
         median_b=_median(b),
         u=float(u),
+        p_raw=float(p),
+        p_holm=None,
+        delta=delta,
+        magnitude=magnitude,
+    )
+
+
+def compare_paired(label: str, a: list[float], b: list[float]) -> Comparison:
+    """Wilcoxon signed-rank for matched observations.
+
+    Used for the misspecification sweep, where each scoring configuration
+    yields one A1 and one A2 measurement under identical seeds. Those are
+    *paired*: treating them as independent samples would discard the pairing
+    and understate the evidence. Configurations where the two arms agree
+    contribute zero difference and are dropped by the test, which is the
+    correct handling — they carry no information about which arm is better.
+    """
+    if len(a) != len(b):
+        raise ValueError("paired comparison needs equal-length samples")
+    delta, magnitude = cliffs_delta(a, b)
+    diffs = [x - y for x, y in zip(a, b)]
+    if all(d == 0 for d in diffs):
+        w, p = float("nan"), 1.0
+    else:
+        w, p = wilcoxon(a, b, zero_method="wilcox", alternative="two-sided")
+    return Comparison(
+        label=label,
+        n_a=len(a),
+        n_b=len(b),
+        median_a=_median(a),
+        median_b=_median(b),
+        u=float(w),
         p_raw=float(p),
         p_holm=None,
         delta=delta,

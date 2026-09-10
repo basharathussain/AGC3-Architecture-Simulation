@@ -67,21 +67,30 @@ supervisor (15.0 vs 17.6), so adaptation carries no invocation penalty.
 
 ### The governance result
 
-At the declared risk weight `λ_R = 0.5`, the governed and ungoverned arms are
-indistinguishable. Sweeping `λ_R` shows why that is the finding rather than a
-non-result:
+At the declared risk weight the governed and ungoverned arms are
+**indistinguishable** — both 93.3% completion, zero violations. We do not claim
+governance improves the point estimate, because it does not.
 
-| λ_R | A1 (ungoverned) completion / violations | A2 (governed) |
+Its value is a guarantee, and a guarantee is evaluated on the worst case. Across
+**30 plausible scoring configurations** (varying `λ_R`, `λ_C` and the
+release-risk constant; 1,800 runs):
+
+| | A1 ungoverned | **A2 governed** |
 |---|---|---|
-| 0.0 | 36.7% / **19** | 93.3% / 0 |
-| 0.1 | 86.7% / 4 | 93.3% / 0 |
-| 0.2 | 93.3% / 1 | 93.3% / 0 |
-| 0.3–0.5 | 93.3% / 0 | 93.3% / 0 |
+| Compliance, best config | 100.0% | **100.0%** |
+| **Compliance, worst config** | **3.3%** | **100.0%** |
+| Mean compliance | 77.6% | **100.0%** |
+| Configs admitting a violation | **18 / 30** | **0 / 30** |
+| Completion, worst config | 3.3% | **86.7%** |
 
-A **soft risk penalty** substitutes for a **hard admissibility constraint** only
-above a threshold, and only if that threshold is known in advance. The governed
-arm is invariant to the weight, because a prohibited action is removed *before*
-ranking and is therefore structurally unreachable rather than merely outweighed.
+Wilcoxon signed-rank over matched configurations: *p* = 1.88 × 10⁻⁴,
+Cliff's δ = +0.600 (large), significant after Holm correction across all seven
+hypotheses.
+
+A soft penalty is a claim about the utility function you wrote; a hard
+constraint is a claim about the ones you did not. Filtering removes a prohibited
+action for *every* scoring function; penalising it removes the action only for
+those weightings where the penalty happens to dominate.
 
 ### Reported honestly
 
