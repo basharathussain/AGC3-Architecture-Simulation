@@ -1,10 +1,10 @@
-# AGCCC — Adaptive Graph-Centric Coordination and Control
+# AGC³ — Adaptive Graph-Centric Coordination and Control
 
 Reference implementation and experiment harness for **“An Adaptive Runtime
-Architecture for Agentic AI: The AGCCC Framework for Graph-Centric Coordination
-and Control.”**
+Architecture for Agentic AI: The AGC³ Framework for Graph-Centric Coordination
+under Simulated Agent Execution.”**
 
-AGCCC treats multi-agent coordination as a *governed control problem*. Instead of
+AGC³ treats multi-agent coordination as a *governed control problem*. Instead of
 fixing the coordination topology before execution, it maintains a time-indexed
 coordination graph
 
@@ -55,14 +55,14 @@ suite-derived confidence.
 | B1 Static sequential | 0.0 | 0.0 | 0.0 | 0 |
 | B2 Supervisor | 43.3 | 43.3 | 100.0 | 0 |
 | B3 Static graph | 33.3 | 33.3 | 33.3 | 0 |
-| A1 AGCCC, governance off | 93.3 | 93.3 | 100.0 | 2.5 |
-| **A2 AGCCC** | **93.3** | **93.3** | **100.0** | 2.5 |
+| A1 AGC³, governance off | 93.3 | 93.3 | 100.0 | 2.5 |
+| **A2 AGC³** | **93.3** | **93.3** | **100.0** | 2.5 |
 | **Perturbed** ||||
 | B2 Supervisor | 33.3 | 33.3 | 100.0 | 0 |
-| **A2 AGCCC** | **56.7** | **56.7** | **100.0** | 2.0 |
+| **A2 AGC³** | **56.7** | **56.7** | **100.0** | 2.0 |
 
 Nominal completion: Mann–Whitney *U*, `p_Holm = 0.0002`, Cliff's δ = +0.50
-(large). AGCCC reaches this using **fewer** agent invocations than the
+(large). AGC³ reaches this using **fewer** agent invocations than the
 supervisor (15.0 vs 17.6), so adaptation carries no invocation penalty.
 
 ### The governance result
@@ -130,7 +130,7 @@ is a modelling choice. Three mitigations are enforced in code:
    *index-stable*: arms that consume randomness at different rates cannot
    desynchronise.
 2. **Sensitivity is a deliverable.** Varying the Coder's security-repair
-   probability from 0.05 to 0.45 leaves the supervisor at 43.3% and AGCCC
+   probability from 0.05 to 0.45 leaves the supervisor at 43.3% and AGC³
    between 93.3% and 100.0%.
 3. **The λ_R sweep above**, which is what turns the governance claim into a
    measurement.
@@ -186,7 +186,7 @@ P_success(a) = (successes + 1) / (attempts + 2)
 which decays `0.500 → 0.333 → 0.250 → 0.200` as an action keeps failing, while
 untried alternatives hold their prior. The ranking flips on its own. The
 supervisor baseline *does* use a fixed escalation constant — that is its defining
-weakness and precisely what AGCCC is compared against.
+weakness and precisely what AGC³ is compared against.
 
 ---
 
@@ -203,7 +203,7 @@ weakness and precisely what AGCCC is compared against.
 | ABL4 | governed, no structural repair in the action space | enabled | none |
 
 **B2 and B3 both have the Security specialist in their roster.** Withholding it
-would let AGCCC win by privileged access rather than by architecture, making the
+would let AGC³ win by privileged access rather than by architecture, making the
 comparison definitional instead of empirical. The remaining difference is
 evidence-driven escalation and structural re-entry: B2's topology is fixed around
 its arbiter, and B3 has no `Security → Tester` edge, so its specialist's work is
@@ -272,9 +272,9 @@ plugin boundary is already in place for it.
 ## Citation
 
 ```bibtex
-@article{hussain2026agccc,
-  title  = {An Adaptive Runtime Architecture for Agentic AI: The AGCCC Framework
-            for Graph-Centric Coordination and Control},
+@article{hussain2026agc3,
+  title  = {An Adaptive Runtime Architecture for Agentic AI: The AGC$^3$ Framework
+            for Graph-Centric Coordination under Simulated Agent Execution},
   author = {Hussain, Basharat and Islam, Muhammad},
   year   = {2026}
 }

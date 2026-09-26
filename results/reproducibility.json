@@ -41,7 +41,7 @@
   "confidence_mode": "derived (Mode B)",
   "python": "3.14.5",
   "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
-  "wall_clock_s": 0.67,
+  "wall_clock_s": 0.694,
   "lambda_sweep": [
     {
       "lambda_risk": 0.0,
@@ -473,5 +473,183 @@
       "A2_success": 0.8666666666666667,
       "A2_violations": 0
     }
-  ]
+  ],
+  "pressure_sweep": [
+    {
+      "lambda_risk": 0.5,
+      "pressure": 0.0,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.475,
+      "pressure": 0.050000000000000044,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.45,
+      "pressure": 0.09999999999999998,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.425,
+      "pressure": 0.15000000000000002,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.4,
+      "pressure": 0.19999999999999996,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.375,
+      "pressure": 0.25,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.35,
+      "pressure": 0.30000000000000004,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.325,
+      "pressure": 0.35,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.3,
+      "pressure": 0.4,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.275,
+      "pressure": 0.44999999999999996,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.25,
+      "pressure": 0.5,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.22499999999999998,
+      "pressure": 0.55,
+      "A1_violation_rate": 0.0,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.2,
+      "pressure": 0.6,
+      "A1_violation_rate": 0.033333333333333326,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.175,
+      "pressure": 0.65,
+      "A1_violation_rate": 0.033333333333333326,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.15000000000000002,
+      "pressure": 0.7,
+      "A1_violation_rate": 0.033333333333333326,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.125,
+      "pressure": 0.75,
+      "A1_violation_rate": 0.033333333333333326,
+      "A1_success": 0.9333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.09999999999999998,
+      "pressure": 0.8,
+      "A1_violation_rate": 0.1333333333333333,
+      "A1_success": 0.8666666666666667,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.07500000000000001,
+      "pressure": 0.85,
+      "A1_violation_rate": 0.1333333333333333,
+      "A1_success": 0.8666666666666667,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.04999999999999999,
+      "pressure": 0.9,
+      "A1_violation_rate": 0.4666666666666667,
+      "A1_success": 0.5333333333333333,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.025000000000000022,
+      "pressure": 0.95,
+      "A1_violation_rate": 0.5333333333333333,
+      "A1_success": 0.4666666666666667,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    },
+    {
+      "lambda_risk": 0.0,
+      "pressure": 1.0,
+      "A1_violation_rate": 0.6333333333333333,
+      "A1_success": 0.36666666666666664,
+      "A2_violation_rate": 0.0,
+      "A2_success": 0.9333333333333333
+    }
+  ],
+  "robustness_figure": {
+    "onset_pressure": 0.6,
+    "a1_violation_max": 63.33333333333333,
+    "a2_violation_max": 0.0,
+    "a1_success_min": 36.666666666666664,
+    "a2_success_min": 93.33333333333333,
+    "points": 21
+  }
 }

@@ -2,21 +2,21 @@
 % Regenerate with:  python -m agccc.experiment.emit
 
 \begin{table*}[t]
-\caption{Two-sample comparisons. Mann--Whitney~$U$ (two-sided) with Cliff's $\delta$, Holm--Bonferroni corrected across the family at $\alpha=0.05$.}
+\caption{Paired comparisons across matched seeds. Completion and recovery use McNemar's exact test on discordant seeds; violations, activations and the misspecification sweep use the Wilcoxon signed-rank test. Effect size is Cliff's $\delta$, which for a binary outcome coincides with the matched-pairs estimator. Holm--Bonferroni corrected across the family at $\alpha=0.05$. $p_{\text{unpaired}}$ is the independent-samples value reported in the submitted version, shown for comparison; discarding the pairing is conservative, so it is the larger of the two.}
 \label{tab:stats}
 \centering\footnotesize
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lccccc}
 \toprule
-Comparison & $U$ & $p_{\text{raw}}$ & $p_{\text{Holm}}$ & $\delta$ & Magnitude \\
+Comparison & $p_{\text{raw}}$ & $p_{\text{Holm}}$ & $p_{\text{unpaired}}$ & $\delta$ & Magnitude \\
 \midrule
-H1 completion, nominal (A2 vs B2) & 675.0 & 0.0000 & 0.0003$^{*}$ & +0.500 & large \\
-H2 recovery, nominal (A2 vs B2) & 675.0 & 0.0000 & 0.0003$^{*}$ & +0.500 & large \\
-H1 completion, perturbed (A2 vs B2) & 555.0 & 0.0730 & 0.2381 & +0.233 & small \\
-H2 recovery, perturbed (A2 vs B2) & 555.0 & 0.0730 & 0.2381 & +0.233 & small \\
-H3 violations, nominal (A2 vs A1) & -- & 1.0000 & 1.0000 & +0.000 & negligible \\
-H4 agent activations, nominal (A2 vs B2) & 325.5 & 0.0595 & 0.2381 & -0.277 & small \\
-H3 compliance under misspecification (A2 vs A1) & 0.0 & 0.0002 & 0.0009$^{*}$ & +0.600 & large \\
+H1 completion, nominal (A2 vs B2) & 0.0001 & 0.0004$^{*}$ & 0.0000 & +0.500 & large \\
+H2 recovery, nominal (A2 vs B2) & 0.0001 & 0.0004$^{*}$ & 0.0000 & +0.500 & large \\
+H1 completion, perturbed (A2 vs B2) & 0.0156 & 0.0469$^{*}$ & 0.0730 & +0.233 & small \\
+H2 recovery, perturbed (A2 vs B2) & 0.0156 & 0.0469$^{*}$ & 0.0730 & +0.233 & small \\
+H3 violations, nominal (A2 vs A1) & 1.0000 & 1.0000 & 1.0000 & +0.000 & negligible \\
+H4 agent activations, nominal (A2 vs B2) & 0.0014 & 0.0054$^{*}$ & 0.0595 & -0.277 & small \\
+H3 compliance under misspecification (A2 vs A1) & 0.0002 & 0.0009$^{*}$ & -- & +0.600 & large \\
 \bottomrule
 \end{tabular}}
 \\[2pt]\footnotesize $^{*}$ significant after Holm--Bonferroni correction. $\delta>0$ favours AGCCC on completion and recovery; on agent activations $\delta>0$ would indicate \emph{higher} cost. Overhead is reported as agent activations rather than wall-clock, which under simulated agents measures the harness rather than the architecture.

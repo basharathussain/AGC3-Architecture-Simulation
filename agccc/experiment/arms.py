@@ -13,6 +13,7 @@ from ..governance import policies
 from ..governance.scoring import DEFAULT, ScoringConfig
 from ..strategies.ablation import GovernedNonAdaptive, ObservationOnly
 from ..strategies.adaptive import Adaptive
+from ..strategies.round_robin import RoundRobin
 from ..strategies.static_graph import StaticGraph
 from ..strategies.static_sequential import StaticSequential
 from ..strategies.supervisor import Supervisor
@@ -23,8 +24,8 @@ ARM_LABELS = {
     "B1": "B1: Static sequential",
     "B2": "B2: Supervisor",
     "B3": "B3: Static graph",
-    "A1": "A1: AGCCC ungoverned",
-    "A2": "Ours: AGCCC (full)",
+    "A1": r"A1: AGC\textsuperscript{3}, governance disabled",
+    "A2": r"AGC\textsuperscript{3} (ours)",
     "ABL2": "Observation only",
     "ABL4": "Governed, non-adaptive",
 }
@@ -35,11 +36,17 @@ ABLATION_ROWS = (
     ("Observation only", "Yes", "No", "No", "ABL2"),
     ("Ungoverned adaptation", "Yes", "No", "Yes", "A1"),
     ("Governed, non-adaptive", "Yes", "Yes", "No", "ABL4"),
-    (r"\textbf{Full AGCCC}", "Yes", "Yes", "Yes", "A2"),
+    (r"\textbf{Full AGC\textsuperscript{3}}", "Yes", "Yes", "Yes", "A2"),
 )
 
 # The five arms that appear in Table III.
 MAIN_ARMS = ("B1", "B2", "B3", "A1", "A2")
+
+# Short labels for figure axes. The proposed system is named, never
+# called "Ours" or "A2": a reader meeting three names for one arm has to
+# maintain a mapping the paper never states.
+ARM_SHORT = {"B1": "B1", "B2": "B2", "B3": "B3",
+             "A1": "A1", "A2": "AGC$^3$"}
 
 
 def build(arm: str, scoring: ScoringConfig = DEFAULT, escalate_after: int = 2):
@@ -58,6 +65,8 @@ def build(arm: str, scoring: ScoringConfig = DEFAULT, escalate_after: int = 2):
         return Adaptive(
             policies=reference, scoring=scoring, name="A2", reference_policies=reference
         )
+    if arm == "B4":
+        return RoundRobin()
     if arm == "ABL2":
         return ObservationOnly(scoring=scoring)
     if arm == "ABL4":

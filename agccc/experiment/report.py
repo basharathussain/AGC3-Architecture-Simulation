@@ -133,6 +133,39 @@ def misspecification_sweep(n: int) -> list[dict]:
     return out
 
 
+PRESSURE_POINTS = 21  # lambda_R from 0.5 down to 0.0
+
+
+def pressure_sweep(n: int, points: int = PRESSURE_POINTS) -> list[dict]:
+    """E6 — governance robustness as utility pressure rises.
+
+    "Utility pressure" is not a new mechanism; it is the declared risk weight
+    read backwards. As lambda_R falls, the penalty on releasing a non-green
+    artefact shrinks, so the prohibited action becomes relatively more
+    attractive to the ranker. Pressure is reported normalised,
+    `1 - lambda_R / 0.5`, so that 0 is the declared configuration and 1 is a
+    scorer that ignores release risk entirely.
+
+    The prediction is asymmetric and worth stating before looking: the
+    ungoverned arm should fail progressively, because its safety is a property
+    of the weighting. The governed arm should not move at all, because a
+    filtered action is unreachable at every weighting. A flat line here is the
+    result, not an absence of one.
+    """
+    lam_max = ScoringConfig().lambda_risk
+    out = []
+    for i in range(points):
+        lam = lam_max * (1 - i / (points - 1))
+        exp = Experiment(n=n, scoring=ScoringConfig(lambda_risk=lam))
+        row = {"lambda_risk": lam, "pressure": 1 - lam / lam_max}
+        for arm in ("A1", "A2"):
+            rows = [M.compute(exp.run_one(arm, "nominal", s)[0]) for s in range(1, n + 1)]
+            row[f"{arm}_violation_rate"] = 1 - M.compliance_rate(rows)
+            row[f"{arm}_success"] = M.rate(rows, "success")
+        out.append(row)
+    return out
+
+
 def main(n: int = 30, out_dir: Path = RESULTS_DIR) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -176,6 +209,11 @@ def main(n: int = 30, out_dir: Path = RESULTS_DIR) -> int:
     (out_dir / "power.tex").write_text(emit.power_note(rows, rows_100))
     emit.figures(rows, sweep, out_dir, misspec=misspec)
 
+    print("pressure sweep (E6) ...")
+    pressure = pressure_sweep(n)
+    repro["pressure_sweep"] = pressure
+    repro["robustness_figure"] = emit.figure_robustness(pressure, out_dir)
+
     # Rewritten last: the sweeps above add to `repro` after the first write, and
     # a reproducibility record missing an experiment it reports would be worse
     # than none at all.
@@ -195,3 +233,4 @@ def main(n: int = 30, out_dir: Path = RESULTS_DIR) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
