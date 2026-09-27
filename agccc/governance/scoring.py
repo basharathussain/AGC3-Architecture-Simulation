@@ -24,7 +24,6 @@ from dataclasses import asdict, dataclass
 
 from ..awareness.confidence import W_FUNCTIONAL, W_SECURITY
 from ..awareness.state import SituationState
-from ..task.defects import ALL_ENDPOINTS
 from .actions import Action
 
 # Expected additional agent invocations per action, used as the transition cost.
@@ -56,7 +55,12 @@ class ScoringConfig:
 DEFAULT = ScoringConfig()
 
 
-def utility(action: Action, state: SituationState, endpoints_implemented: int) -> float:
+def utility(
+    action: Action,
+    state: SituationState,
+    endpoints_implemented: int,
+    units_total: int,
+) -> float:
     """Expected final confidence *if the action succeeds*.
 
     Each repair action is credited with fixing the surface it targets and
@@ -74,7 +78,7 @@ def utility(action: Action, state: SituationState, endpoints_implemented: int) -
         return W_FUNCTIONAL * f + W_SECURITY * 1.0
     if action is Action.REPLAN:
         # Re-planning only buys anything when the plan is missing coverage.
-        missing = (len(ALL_ENDPOINTS) - endpoints_implemented) / len(ALL_ENDPOINTS)
+        missing = (units_total - endpoints_implemented) / units_total if units_total else 0.0
         return min(1.0, state.confidence + missing)
     return 0.0  # TERMINATE
 
@@ -100,10 +104,11 @@ def objective(
     state: SituationState,
     p_success: float,
     endpoints_implemented: int,
+    units_total: int,
     cfg: ScoringConfig = DEFAULT,
 ) -> float:
     return (
-        p_success * utility(action, state, endpoints_implemented)
+        p_success * utility(action, state, endpoints_implemented, units_total)
         - cfg.lambda_cost * cost(action)
         - cfg.lambda_risk * risk(action, state, cfg)
     )

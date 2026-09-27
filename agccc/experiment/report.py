@@ -94,7 +94,7 @@ def competence_sweep(n: int) -> list[dict]:
     return out
 
 
-def misspecification_sweep(n: int) -> list[dict]:
+def misspecification_sweep(n: int, task=None) -> list[dict]:
     """E5 — robustness of compliance to utility misspecification.
 
     The governed and ungoverned arms are indistinguishable at the declared
@@ -114,7 +114,7 @@ def misspecification_sweep(n: int) -> list[dict]:
                 cfg = ScoringConfig(
                     lambda_risk=lr, lambda_cost=lc, risk_accept_security_red=rr
                 )
-                exp = Experiment(n=n, scoring=cfg)
+                exp = Experiment(n=n, scoring=cfg, **({"task": task} if task else {}))
                 row = {
                     "lambda_risk": lr,
                     "lambda_cost": lc,

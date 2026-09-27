@@ -25,14 +25,8 @@ from __future__ import annotations
 import hashlib
 from dataclasses import dataclass, replace
 
-from ...task.defects import (
-    ALL_ENDPOINTS,
-    FUNCTIONAL_DEFECTS,
-    SECURITY_DEFECTS,
-    Defect,
-    Endpoint,
-    is_security,
-)
+from ...task.catalogue import DEFAULT_TASK
+from ...task.spec import TaskSpec
 
 
 @dataclass(frozen=True)
@@ -67,58 +61,68 @@ def _unit(seed: int, *key: object) -> float:
 class World:
     """Pre-determined luck for one seed. Identical for every arm."""
 
-    def __init__(self, seed: int, params: WorldParams | None = None) -> None:
+    def __init__(
+        self,
+        seed: int,
+        params: WorldParams | None = None,
+        spec: TaskSpec | None = None,
+    ) -> None:
         self.seed = seed
-        self.params = params or WorldParams()
+        self.spec = spec or DEFAULT_TASK
+        # A task carries its own competence profile. An explicit `params`
+        # always wins, so the sensitivity sweep can still override one axis.
+        base = WorldParams(**(self.spec.world_overrides or {}))
+        self.params = params if params is not None else base
 
     # --- planner --------------------------------------------------------
 
-    def planned_endpoints(self, attempt: int) -> frozenset[Endpoint]:
+    def planned_endpoints(self, attempt: int) -> frozenset[str]:
         """Which endpoints the plan covers. A re-plan is a fresh attempt.
 
         Later attempts are strictly better: a re-plan that could silently drop
         an endpoint would let re-planning *lose* work, which is not the failure
         mode under study.
         """
+        units = self.spec.all_units
         if attempt >= 1:
-            return ALL_ENDPOINTS
+            return units
         omitted = {
-            e
-            for e in sorted(ALL_ENDPOINTS, key=lambda x: x.value)
-            if _unit(self.seed, "plan", attempt, e.value) < self.params.p_planner_omits_endpoint
+            u
+            for u in sorted(units)
+            if _unit(self.seed, "plan", attempt, u) < self.params.p_planner_omits_endpoint
         }
-        return frozenset(ALL_ENDPOINTS - omitted)
+        return frozenset(units - omitted)
 
     # --- coder ----------------------------------------------------------
 
-    def initial_defects(self) -> frozenset[Defect]:
+    def initial_defects(self) -> frozenset[str]:
         p = self.params
         return frozenset(
             d
-            for d in (*FUNCTIONAL_DEFECTS, *SECURITY_DEFECTS)
-            if _unit(self.seed, "inject", d.value)
-            < (p.p_defect_security if is_security(d) else p.p_defect_functional)
+            for d in self.spec.all_defects
+            if _unit(self.seed, "inject", d)
+            < (p.p_defect_security if self.spec.is_security(d) else p.p_defect_functional)
         )
 
-    def coder_clears(self, attempt: int) -> frozenset[Defect]:
+    def coder_clears(self, attempt: int) -> frozenset[str]:
         """Defects the Coder would clear on its `attempt`-th repair pass."""
         p = self.params
         return frozenset(
             d
-            for d in (*FUNCTIONAL_DEFECTS, *SECURITY_DEFECTS)
-            if _unit(self.seed, "coder_fix", attempt, d.value)
-            < (p.p_fix_security_coder if is_security(d) else p.p_fix_functional_coder)
+            for d in self.spec.all_defects
+            if _unit(self.seed, "coder_fix", attempt, d)
+            < (p.p_fix_security_coder if self.spec.is_security(d) else p.p_fix_functional_coder)
         )
 
-    def specialist_clears(self, attempt: int) -> frozenset[Defect]:
+    def specialist_clears(self, attempt: int) -> frozenset[str]:
         p = self.params
         return frozenset(
             d
-            for d in (*FUNCTIONAL_DEFECTS, *SECURITY_DEFECTS)
-            if _unit(self.seed, "sec_fix", attempt, d.value)
+            for d in self.spec.all_defects
+            if _unit(self.seed, "sec_fix", attempt, d)
             < (
                 p.p_fix_security_specialist
-                if is_security(d)
+                if self.spec.is_security(d)
                 else p.p_fix_functional_specialist
             )
         )
@@ -135,4 +139,4 @@ class World:
         return 0.70 + 0.25 * _unit(self.seed, "selfreport", role, attempt)
 
     def with_params(self, **overrides) -> "World":
-        return World(self.seed, replace(self.params, **overrides))
+        return World(self.seed, replace(self.params, **overrides), self.spec)

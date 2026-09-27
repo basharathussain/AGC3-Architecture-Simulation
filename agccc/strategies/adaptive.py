@@ -92,6 +92,7 @@ class Adaptive:
             state=state,
             evidence=self.evidence,
             endpoints_implemented=len(ctx.artefact.endpoints),
+            units_total=ctx.units_total,
         )
 
         trigger = (

@@ -18,7 +18,8 @@ from dataclasses import dataclass
 from ..agents.base import CODER, SECURITY, TESTER
 from ..agents.sim.world import _unit
 from ..task.artefact import Artefact
-from ..task.defects import SECURITY_DEFECTS, Defect
+from ..task.catalogue import DEFAULT_TASK
+from ..task.spec import TaskSpec
 
 
 class NullInjector:
@@ -50,6 +51,7 @@ class Injector:
     """
 
     seed: int
+    spec: TaskSpec = DEFAULT_TASK
     enabled: bool = True
 
     # --- F6: unavailability ---------------------------------------------
@@ -79,8 +81,9 @@ class Injector:
         return 5 + int(_unit(self.seed, "regress_at") * 6)
 
     @property
-    def regression_defect(self) -> Defect:
-        return SECURITY_DEFECTS[int(_unit(self.seed, "regress_what") * len(SECURITY_DEFECTS))]
+    def regression_defect(self) -> str:
+        pool = self.spec.security_defects
+        return pool[int(_unit(self.seed, "regress_what") * len(pool))]
 
     def perturb(self, artefact: Artefact, step: int) -> Artefact:
         if step == self.regression_at:
@@ -93,13 +96,13 @@ class Injector:
             "down_agent": self.down_agent,
             "down_window": [self.down_from, self.down_until],
             "regression_at": self.regression_at,
-            "regression_defect": self.regression_defect.value,
+            "regression_defect": str(self.regression_defect),
         }
 
 
-def for_env(env: str, seed: int):
+def for_env(env: str, seed: int, spec: TaskSpec | None = None):
     if env == "nominal":
         return NullInjector()
     if env == "perturbed":
-        return Injector(seed)
+        return Injector(seed, spec or DEFAULT_TASK)
     raise ValueError(f"unknown environment {env!r}")

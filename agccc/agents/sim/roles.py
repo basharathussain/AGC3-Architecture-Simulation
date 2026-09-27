@@ -14,7 +14,6 @@ from __future__ import annotations
 from ...awareness.confidence import derive
 from ...kernel.events import Event, EventType
 from ...task.artefact import Artefact
-from ...task.defects import SECURITY_DEFECTS
 from ..base import (
     CODER,
     PLANNER,
@@ -96,6 +95,7 @@ class SimTester:
         reading = derive(
             ctx.artefact,
             llm_self_report=self.world.self_report(self.name, ctx.attempt),
+            spec=self.world.spec,
         )
         f, s = reading.functional, reading.security
         events = [
@@ -156,7 +156,7 @@ class SimSecurity:
                     EventType.AGENT_COMPLETED,
                     self.name,
                     ctx.step,
-                    {"cleared": sorted(d.value for d in cleared)},
+                    {"cleared": sorted(str(d) for d in cleared)},
                 )
             ],
             self_report=self.world.self_report(self.name, ctx.attempt),
@@ -172,7 +172,7 @@ class SimReviewer:
         self.world = world
 
     def act(self, ctx: AgentContext) -> AgentResult:
-        reading = derive(ctx.artefact)
+        reading = derive(ctx.artefact, spec=self.world.spec)
         releasable = reading.functional.green and reading.security.green
         return AgentResult(
             artefact=ctx.artefact,

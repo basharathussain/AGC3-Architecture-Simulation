@@ -23,7 +23,8 @@ from ..agents.sim.roles import build_roster
 from ..agents.sim.world import World, WorldParams
 from ..governance.scoring import DEFAULT, ScoringConfig
 from ..kernel.runtime import DEFAULT_STEP_BUDGET, Runtime
-from ..task.suites import SUITE_VERSION
+from ..task.catalogue import DEFAULT_TASK, TASKS
+from ..task.spec import TaskSpec
 from . import arms as arm_registry
 from . import metrics as M
 from .injection import for_env
@@ -38,7 +39,10 @@ RESULTS_DIR = Path(__file__).resolve().parents[2] / "results"
 class Experiment:
     n: int = DEFAULT_N
     scoring: ScoringConfig = DEFAULT
-    world_params: WorldParams = field(default_factory=WorldParams)
+    task: TaskSpec = DEFAULT_TASK
+    # None means "use the task's own competence profile". An explicit value
+    # overrides it, which is what the sensitivity sweep needs.
+    world_params: WorldParams | None = None
     step_budget: int = DEFAULT_STEP_BUDGET
     escalate_after: int = 2
     agent_backend: str = "sim"
@@ -48,15 +52,17 @@ class Experiment:
         return self.scoring.hash()
 
     def run_one(self, arm: str, env: str, seed: int):
-        world = World(seed, self.world_params)
+        world = World(seed, self.world_params, self.task)
         strategy = arm_registry.build(
             arm, scoring=self.scoring, escalate_after=self.escalate_after
         )
         runtime = Runtime(
             roster=build_roster(world),
             strategy=strategy,
-            injector=for_env(env, seed),
+            injector=for_env(env, seed, self.task),
             step_budget=self.step_budget,
+            units_total=len(self.task.units),
+            spec=self.task,
         )
         record = runtime.run(arm, env, seed)
         return record, strategy
@@ -95,7 +101,8 @@ class Experiment:
         return rows, records, {
             "scoring_hash": registered,
             "scoring": self.scoring.__dict__,
-            "world_params": self.world_params.to_dict(),
+            "task": self.task.to_dict(),
+            "world_params": World(0, self.world_params, self.task).params.to_dict(),
             "n_per_arm_per_env": self.n,
             "seeds": [1, self.n],
             "arms": list(arm_registry.ARM_ORDER),
@@ -103,7 +110,7 @@ class Experiment:
             "step_budget": self.step_budget,
             "supervisor_escalate_after": self.escalate_after,
             "agent_backend": self.agent_backend,
-            "suite_version": SUITE_VERSION,
+            "suite_version": self.task.suite_version,
             "confidence_mode": "derived (Mode B)",
             "python": sys.version.split()[0],
             "platform": platform.platform(),

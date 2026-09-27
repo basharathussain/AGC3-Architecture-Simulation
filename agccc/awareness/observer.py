@@ -12,13 +12,17 @@ from dataclasses import replace
 
 from ..kernel.events import Event, EventType
 from ..task.artefact import Artefact
+from ..task.spec import TaskSpec
 from .confidence import derive
 from .state import SituationState, SuiteView, TaskStatus
 
 
 class Observer:
-    def __init__(self) -> None:
+    def __init__(self, spec: TaskSpec | None = None) -> None:
         self._state = SituationState()
+        # Which task's suites `resync` measures against. The event fold carries
+        # the numbers the Tester already computed, so only this path needs it.
+        self._spec = spec
 
     @property
     def state(self) -> SituationState:
@@ -86,7 +90,7 @@ class Observer:
         the runtime at termination so that a reported final confidence is never
         a stale event payload. Both paths must agree — a test asserts it.
         """
-        reading = derive(artefact)
+        reading = derive(artefact, spec=self._spec)
         self._state = replace(
             self._state,
             confidence=reading.value,

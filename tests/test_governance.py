@@ -9,6 +9,10 @@ from __future__ import annotations
 import pytest
 
 from agccc.awareness.state import SituationState, SuiteView
+from agccc.task.catalogue import REST_AUTH
+
+# These tests exercise the engine against the original task.
+UNITS_TOTAL = len(REST_AUTH.units)
 from agccc.governance.actions import ALL_ACTIONS, Action
 from agccc.governance.decision import DecisionEngine
 from agccc.governance.evidence import EvidenceModel
@@ -37,9 +41,9 @@ class ScoringSpy:
     def __init__(self) -> None:
         self.seen: list[Action] = []
 
-    def __call__(self, action, state, p_success, endpoints, cfg):
+    def __call__(self, action, state, p_success, endpoints, units_total, cfg):
         self.seen.append(action)
-        return objective(action, state, p_success, endpoints, cfg)
+        return objective(action, state, p_success, endpoints, units_total, cfg)
 
 
 def test_the_ranker_never_sees_an_inadmissible_action():
@@ -53,7 +57,8 @@ def test_the_ranker_never_sees_an_inadmissible_action():
     engine = DecisionEngine(policies=default(), scorer=spy)
     state = red_state()
 
-    decision = engine.decide(state, EvidenceModel(), endpoints_implemented=5)
+    decision = engine.decide(state, EvidenceModel(), endpoints_implemented=5,
+                             units_total=UNITS_TOTAL)
 
     assert Action.ACCEPT in decision.rejected, "policy must prohibit release while red"
     assert Action.ACCEPT not in spy.seen, "a rejected action must never be scored"
@@ -70,16 +75,16 @@ def test_no_utility_however_large_can_make_a_prohibited_action_selectable():
     is what makes this a property of the *ordering* and not of the numbers.
     """
 
-    def perverse(action, state, p, endpoints, cfg):
+    def perverse(action, state, p_success, endpoints, units_total, cfg):
         return float("inf") if action is Action.ACCEPT else float("-inf")
 
     state = red_state()
 
     governed = DecisionEngine(policies=default(), scorer=perverse)
-    assert governed.decide(state, EvidenceModel(), 5).selected is not Action.ACCEPT
+    assert governed.decide(state, EvidenceModel(), 5, UNITS_TOTAL).selected is not Action.ACCEPT
 
     ungoverned = DecisionEngine(policies=EMPTY, scorer=perverse)
-    assert ungoverned.decide(state, EvidenceModel(), 5).selected is Action.ACCEPT
+    assert ungoverned.decide(state, EvidenceModel(), 5, UNITS_TOTAL).selected is Action.ACCEPT
 
 
 def test_escalation_when_nothing_is_admissible():
@@ -90,7 +95,7 @@ def test_escalation_when_nothing_is_admissible():
             return {a: "TEST_ALL" for a in ALL_ACTIONS}
 
     engine = DecisionEngine(policies=ProhibitEverything())
-    d = engine.decide(red_state(), EvidenceModel(), 5)
+    d = engine.decide(red_state(), EvidenceModel(), 5, UNITS_TOTAL)
     assert d.escalated and d.selected is None
 
 
@@ -126,13 +131,13 @@ def test_repeated_failure_flips_the_selection_with_no_rule_and_no_counter():
     engine = DecisionEngine(policies=default())
     ev = EvidenceModel()
 
-    first = engine.decide(state, ev, 5).selected
+    first = engine.decide(state, ev, 5, UNITS_TOTAL).selected
     assert first is Action.RETRY_CODER
 
     for _ in range(3):
         ev.record(Action.RETRY_CODER, False)
 
-    later = engine.decide(state, ev, 5).selected
+    later = engine.decide(state, ev, 5, UNITS_TOTAL).selected
     assert later is not Action.RETRY_CODER, "decision should move off a failing action"
 
 

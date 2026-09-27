@@ -87,13 +87,18 @@ class Runtime:
         strategy: Strategy,
         injector=None,
         step_budget: int = DEFAULT_STEP_BUDGET,
+        units_total: int = 0,
+        spec=None,
     ) -> None:
         self.roster = roster
         self.strategy = strategy
         self.injector = injector
         self.step_budget = step_budget
+        # A plain count, not a task object: the kernel still names no unit,
+        # role or policy (asserted by test_the_kernel_contains_no_orchestration_logic).
+        self.units_total = units_total
         self.bus = EventBus()
-        self.observer = Observer()
+        self.observer = Observer(spec)
         self.audit = AuditLogger()
 
     def run(self, arm: str, env: str, seed: int) -> RunRecord:
@@ -121,6 +126,7 @@ class Runtime:
                     step=step,
                     last_agent=last_agent,
                     available=available,
+                    units_total=self.units_total,
                 )
             )
             decision_ms += (time.perf_counter() - t0) * 1000

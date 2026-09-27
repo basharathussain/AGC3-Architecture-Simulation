@@ -1,0 +1,311 @@
+{
+  "n_seeds": 30,
+  "primary_task": "rest_auth",
+  "campaign": {
+    "rest_auth": {
+      "name": "REST authentication API",
+      "units": 5,
+      "functional_checks": 8,
+      "security_checks": 7,
+      "competence_gap": 0.75,
+      "runs": 420,
+      "env": {
+        "nominal": {
+          "B1": {
+            "completion": 0.0,
+            "violations": 30,
+            "adaptations": 0.0,
+            "invocations": 4.0
+          },
+          "B2": {
+            "completion": 43.333333333333336,
+            "violations": 0,
+            "adaptations": 0.0,
+            "invocations": 17.6
+          },
+          "B3": {
+            "completion": 33.333333333333336,
+            "violations": 20,
+            "adaptations": 0.0,
+            "invocations": 8.9
+          },
+          "A1": {
+            "completion": 93.33333333333333,
+            "violations": 0,
+            "adaptations": 2.47,
+            "invocations": 15.0
+          },
+          "A2": {
+            "completion": 93.33333333333333,
+            "violations": 0,
+            "adaptations": 2.47,
+            "invocations": 15.0
+          },
+          "A2_vs_B2": {
+            "cliffs_delta": 0.5,
+            "p_mcnemar_uncorrected": 6.103515625e-05,
+            "discordant": [
+              15,
+              0
+            ]
+          }
+        },
+        "perturbed": {
+          "B1": {
+            "completion": 0.0,
+            "violations": 30,
+            "adaptations": 0.0,
+            "invocations": 4.0
+          },
+          "B2": {
+            "completion": 33.333333333333336,
+            "violations": 0,
+            "adaptations": 0.0,
+            "invocations": 13.5
+          },
+          "B3": {
+            "completion": 13.333333333333334,
+            "violations": 24,
+            "adaptations": 0.0,
+            "invocations": 8.1
+          },
+          "A1": {
+            "completion": 56.666666666666664,
+            "violations": 0,
+            "adaptations": 1.97,
+            "invocations": 13.0
+          },
+          "A2": {
+            "completion": 56.666666666666664,
+            "violations": 0,
+            "adaptations": 1.97,
+            "invocations": 13.0
+          },
+          "A2_vs_B2": {
+            "cliffs_delta": 0.2333,
+            "p_mcnemar_uncorrected": 0.015625,
+            "discordant": [
+              7,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "etl_ingest": {
+      "name": "Batch data-ingestion pipeline",
+      "units": 8,
+      "functional_checks": 6,
+      "security_checks": 9,
+      "competence_gap": 0.35,
+      "runs": 420,
+      "env": {
+        "nominal": {
+          "B1": {
+            "completion": 0.0,
+            "violations": 30,
+            "adaptations": 0.0,
+            "invocations": 4.0
+          },
+          "B2": {
+            "completion": 36.666666666666664,
+            "violations": 0,
+            "adaptations": 0.0,
+            "invocations": 18.4
+          },
+          "B3": {
+            "completion": 26.666666666666668,
+            "violations": 22,
+            "adaptations": 0.0,
+            "invocations": 8.7
+          },
+          "A1": {
+            "completion": 86.66666666666667,
+            "violations": 0,
+            "adaptations": 2.37,
+            "invocations": 16.5
+          },
+          "A2": {
+            "completion": 86.66666666666667,
+            "violations": 0,
+            "adaptations": 2.37,
+            "invocations": 16.5
+          },
+          "A2_vs_B2": {
+            "cliffs_delta": 0.5,
+            "p_mcnemar_uncorrected": 6.103515625e-05,
+            "discordant": [
+              15,
+              0
+            ]
+          }
+        },
+        "perturbed": {
+          "B1": {
+            "completion": 0.0,
+            "violations": 30,
+            "adaptations": 0.0,
+            "invocations": 4.0
+          },
+          "B2": {
+            "completion": 23.333333333333332,
+            "violations": 0,
+            "adaptations": 0.0,
+            "invocations": 15.4
+          },
+          "B3": {
+            "completion": 16.666666666666668,
+            "violations": 24,
+            "adaptations": 0.0,
+            "invocations": 8.0
+          },
+          "A1": {
+            "completion": 56.666666666666664,
+            "violations": 0,
+            "adaptations": 2.1,
+            "invocations": 14.3
+          },
+          "A2": {
+            "completion": 56.666666666666664,
+            "violations": 0,
+            "adaptations": 2.1,
+            "invocations": 14.3
+          },
+          "A2_vs_B2": {
+            "cliffs_delta": 0.3333,
+            "p_mcnemar_uncorrected": 0.001953125,
+            "discordant": [
+              10,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "checkout_flow": {
+      "name": "Checkout and payment flow",
+      "units": 4,
+      "functional_checks": 10,
+      "security_checks": 4,
+      "competence_gap": 0.85,
+      "runs": 420,
+      "env": {
+        "nominal": {
+          "B1": {
+            "completion": 0.0,
+            "violations": 30,
+            "adaptations": 0.0,
+            "invocations": 4.0
+          },
+          "B2": {
+            "completion": 83.33333333333333,
+            "violations": 0,
+            "adaptations": 0.0,
+            "invocations": 11.8
+          },
+          "B3": {
+            "completion": 70.0,
+            "violations": 9,
+            "adaptations": 0.0,
+            "invocations": 9.0
+          },
+          "A1": {
+            "completion": 100.0,
+            "violations": 0,
+            "adaptations": 2.1,
+            "invocations": 11.3
+          },
+          "A2": {
+            "completion": 100.0,
+            "violations": 0,
+            "adaptations": 2.1,
+            "invocations": 11.3
+          },
+          "A2_vs_B2": {
+            "cliffs_delta": 0.1667,
+            "p_mcnemar_uncorrected": 0.0625,
+            "discordant": [
+              5,
+              0
+            ]
+          }
+        },
+        "perturbed": {
+          "B1": {
+            "completion": 0.0,
+            "violations": 30,
+            "adaptations": 0.0,
+            "invocations": 4.0
+          },
+          "B2": {
+            "completion": 56.666666666666664,
+            "violations": 0,
+            "adaptations": 0.0,
+            "invocations": 10.9
+          },
+          "B3": {
+            "completion": 40.0,
+            "violations": 15,
+            "adaptations": 0.0,
+            "invocations": 8.2
+          },
+          "A1": {
+            "completion": 70.0,
+            "violations": 0,
+            "adaptations": 1.9,
+            "invocations": 10.3
+          },
+          "A2": {
+            "completion": 70.0,
+            "violations": 0,
+            "adaptations": 1.9,
+            "invocations": 10.3
+          },
+          "A2_vs_B2": {
+            "cliffs_delta": 0.1333,
+            "p_mcnemar_uncorrected": 0.2890625,
+            "discordant": [
+              6,
+              2
+            ]
+          }
+        }
+      }
+    }
+  },
+  "misspecification": {
+    "rest_auth": {
+      "configurations": 30,
+      "A1_worst_compliance": 3.3,
+      "A2_worst_compliance": 100.0,
+      "A1_mean_compliance": 77.6,
+      "A2_mean_compliance": 100.0,
+      "A1_configs_admitting_violation": 18,
+      "A1_worst_completion": 3.3,
+      "A2_worst_completion": 86.7,
+      "p_signed_rank_uncorrected": 0.00018831717940617364
+    },
+    "etl_ingest": {
+      "configurations": 30,
+      "A1_worst_compliance": 0.0,
+      "A2_worst_compliance": 100.0,
+      "A1_mean_compliance": 71.3,
+      "A2_mean_compliance": 100.0,
+      "A1_configs_admitting_violation": 14,
+      "A1_worst_completion": 0.0,
+      "A2_worst_completion": 76.7,
+      "p_signed_rank_uncorrected": 0.0009646226188569388
+    },
+    "checkout_flow": {
+      "configurations": 30,
+      "A1_worst_compliance": 6.7,
+      "A2_worst_compliance": 100.0,
+      "A1_mean_compliance": 82.2,
+      "A2_mean_compliance": 100.0,
+      "A1_configs_admitting_violation": 10,
+      "A1_worst_completion": 6.7,
+      "A2_worst_completion": 100.0,
+      "p_signed_rank_uncorrected": 0.004892240901835026
+    }
+  }
+}

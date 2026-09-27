@@ -11,7 +11,6 @@ import hashlib
 import json
 from dataclasses import dataclass, field, replace
 
-from .defects import ALL_ENDPOINTS, Defect, Endpoint
 
 
 @dataclass(frozen=True)
@@ -23,26 +22,41 @@ class Artefact:
     (V3 §19.1) stores per-round artefacts and they must not alias.
     """
 
-    endpoints: frozenset[Endpoint] = frozenset()
-    defects: frozenset[Defect] = frozenset()
+    endpoints: frozenset[str] = frozenset()
+    defects: frozenset[str] = frozenset()
 
-    def with_endpoints(self, added: frozenset[Endpoint] | set[Endpoint]) -> "Artefact":
+    @property
+    def units(self) -> frozenset[str]:
+        """Task-neutral name for `endpoints`.
+
+        The field keeps its original name so that stored run records and the
+        reproducibility manifest stay readable against the results already
+        published; new code reads `units`, which is what it always meant.
+        """
+        return self.endpoints
+
+    def with_endpoints(self, added) -> "Artefact":
         return replace(self, endpoints=self.endpoints | frozenset(added))
 
-    def without_defects(self, removed: frozenset[Defect] | set[Defect]) -> "Artefact":
+    def without_defects(self, removed) -> "Artefact":
         return replace(self, defects=self.defects - frozenset(removed))
 
-    def with_defects(self, added: frozenset[Defect] | set[Defect]) -> "Artefact":
+    def with_defects(self, added) -> "Artefact":
         return replace(self, defects=self.defects | frozenset(added))
+
+    def is_complete_for(self, spec) -> bool:
+        return self.endpoints >= spec.all_units
 
     @property
     def is_complete(self) -> bool:
-        return self.endpoints == ALL_ENDPOINTS
+        """Completeness against the default task. New code uses `is_complete_for`."""
+        from .catalogue import DEFAULT_TASK
+        return self.is_complete_for(DEFAULT_TASK)
 
     def to_dict(self) -> dict:
         return {
-            "endpoints": sorted(e.value for e in self.endpoints),
-            "defects": sorted(d.value for d in self.defects),
+            "endpoints": sorted(str(e) for e in self.endpoints),
+            "defects": sorted(str(d) for d in self.defects),
         }
 
     def digest(self) -> str:

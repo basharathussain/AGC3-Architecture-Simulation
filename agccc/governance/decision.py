@@ -91,10 +91,12 @@ class DecisionEngine:
         state: SituationState,
         evidence: EvidenceModel,
         endpoints_implemented: int,
+        units_total: int,
     ) -> dict[Action, float]:
         return {
             a: self._scorer(
-                a, state, evidence.p_success(a), endpoints_implemented, self.scoring
+                a, state, evidence.p_success(a), endpoints_implemented, units_total,
+                self.scoring
             )
             for a in admissible
         }
@@ -104,6 +106,7 @@ class DecisionEngine:
         state: SituationState,
         evidence: EvidenceModel,
         endpoints_implemented: int,
+        units_total: int,
     ) -> Decision:
         candidates = self.generate(state)
         admissible, rejected = self.filter(candidates, state)
@@ -111,7 +114,7 @@ class DecisionEngine:
         if not admissible:
             return Decision(selected=None, rejected=rejected, considered=candidates)
 
-        scores = self._rank(admissible, state, evidence, endpoints_implemented)
+        scores = self._rank(admissible, state, evidence, endpoints_implemented, units_total)
         # Ties broken by the declaration order of `Action`, so a run is
         # reproducible rather than dependent on dict iteration.
         best = max(admissible, key=lambda a: (scores[a], -ALL_ACTIONS.index(a)))

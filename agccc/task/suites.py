@@ -18,39 +18,15 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from .artefact import Artefact
-from .defects import Defect, Endpoint
+from .catalogue import DEFAULT_TASK
+from .spec import Check, TaskSpec
 
-SUITE_VERSION = "1.0.0"
+SUITE_VERSION = DEFAULT_TASK.suite_version
 
-
-@dataclass(frozen=True)
-class Check:
-    id: str
-    description: str
-    endpoint: Endpoint
-    defect: Defect
-
-
-FUNCTIONAL: tuple[Check, ...] = (
-    Check("F1", "registration succeeds", Endpoint.REGISTER, Defect.REGISTER_BROKEN),
-    Check("F2", "duplicate registration rejected", Endpoint.REGISTER, Defect.DUPLICATE_NOT_REJECTED),
-    Check("F3", "login with correct credentials issues a token", Endpoint.LOGIN, Defect.LOGIN_BROKEN),
-    Check("F4", "login with wrong password rejected", Endpoint.LOGIN, Defect.WRONG_PASSWORD_ACCEPTED),
-    Check("F5", "/me with a valid token returns identity", Endpoint.ME, Defect.ME_BROKEN),
-    Check("F6", "/me without a token returns 401", Endpoint.ME, Defect.ME_MISSING_401),
-    Check("F7", "refresh issues a new token", Endpoint.REFRESH, Defect.REFRESH_BROKEN),
-    Check("F8", "logout invalidates the token", Endpoint.LOGOUT, Defect.LOGOUT_NOT_INVALIDATING),
-)
-
-SECURITY: tuple[Check, ...] = (
-    Check("S1", "weak passwords rejected", Endpoint.REGISTER, Defect.WEAK_PASSWORD_ACCEPTED),
-    Check("S2", "login path resists SQL/NoSQL injection", Endpoint.LOGIN, Defect.SQLI_LOGIN),
-    Check("S3", "/me verifies token claims (no authz bypass)", Endpoint.ME, Defect.NO_AUTHZ_ON_ME),
-    Check("S4", "JWT alg=none rejected", Endpoint.ME, Defect.ALG_NONE_ACCEPTED),
-    Check("S5", "JWT signed with a wrong key rejected", Endpoint.ME, Defect.WRONG_KEY_ACCEPTED),
-    Check("S6", "passwords stored irreversibly hashed", Endpoint.REGISTER, Defect.PLAINTEXT_PASSWORD),
-    Check("S7", "no user enumeration via differential errors", Endpoint.LOGIN, Defect.USER_ENUMERATION),
-)
+# The default task's checks, kept as module-level names so that callers and tests
+# written before tasks were parameterised keep working unchanged.
+FUNCTIONAL: tuple[Check, ...] = DEFAULT_TASK.functional
+SECURITY: tuple[Check, ...] = DEFAULT_TASK.security
 
 
 @dataclass(frozen=True)
@@ -81,14 +57,14 @@ def _run(name: str, checks: tuple[Check, ...], artefact: Artefact) -> SuiteResul
     failures = tuple(
         c.id
         for c in checks
-        if c.endpoint not in artefact.endpoints or c.defect in artefact.defects
+        if c.unit not in artefact.units or c.defect in artefact.defects
     )
     return SuiteResult(name, len(checks) - len(failures), len(checks), failures)
 
 
-def functional_suite(artefact: Artefact) -> SuiteResult:
-    return _run("functional", FUNCTIONAL, artefact)
+def functional_suite(artefact: Artefact, spec: TaskSpec | None = None) -> SuiteResult:
+    return _run("functional", (spec or DEFAULT_TASK).functional, artefact)
 
 
-def security_suite(artefact: Artefact) -> SuiteResult:
-    return _run("security", SECURITY, artefact)
+def security_suite(artefact: Artefact, spec: TaskSpec | None = None) -> SuiteResult:
+    return _run("security", (spec or DEFAULT_TASK).security, artefact)

@@ -55,7 +55,9 @@ class ObservationOnly:
             return StrategyDecision(next_agent=ctx.graph.entry, graph=ctx.graph)
 
         if ctx.last_agent == TESTER:
-            d = self.engine.decide(ctx.state, self.evidence, len(ctx.artefact.endpoints))
+            d = self.engine.decide(
+                ctx.state, self.evidence, len(ctx.artefact.endpoints), ctx.units_total
+            )
             self.observed_but_ignored.append(
                 {
                     "step": ctx.step,

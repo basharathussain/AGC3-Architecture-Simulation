@@ -26,6 +26,7 @@ from dataclasses import dataclass
 from enum import Enum
 
 from ..task.artefact import Artefact
+from ..task.spec import TaskSpec
 from ..task.suites import SuiteResult, functional_suite, security_suite
 
 W_FUNCTIONAL = 0.5
@@ -71,10 +72,19 @@ class ConfidenceReading:
         }
 
 
-def derive(artefact: Artefact, llm_self_report: float | None = None) -> ConfidenceReading:
-    """Mode B. The only mode permitted to produce a reported number."""
-    f = functional_suite(artefact)
-    s = security_suite(artefact)
+def derive(
+    artefact: Artefact,
+    llm_self_report: float | None = None,
+    spec: TaskSpec | None = None,
+) -> ConfidenceReading:
+    """Mode B. The only mode permitted to produce a reported number.
+
+    `spec` selects which task's suites measure the artefact; omitting it keeps
+    the original task, so callers written before tasks were parameterised are
+    unaffected.
+    """
+    f = functional_suite(artefact, spec)
+    s = security_suite(artefact, spec)
     value = W_FUNCTIONAL * f.fraction + W_SECURITY * s.fraction
     return ConfidenceReading(
         value=value,

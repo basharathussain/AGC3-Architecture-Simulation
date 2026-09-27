@@ -37,6 +37,9 @@ class StrategyContext:
     step: int
     last_agent: str | None
     available: frozenset[str]
+    # How many work units the task defines. The kernel supplies it so that a
+    # strategy can reason about coverage without naming the task.
+    units_total: int = 0
 
 
 @dataclass
